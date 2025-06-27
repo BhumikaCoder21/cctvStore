@@ -10,7 +10,6 @@
     gap: 40px;
     height: 600px;
     padding: 0;
-    /* ✅ Ensures content aligns perfectly with image */
 }
 
 .about-image {
@@ -29,7 +28,6 @@
     height: 100%;
     box-sizing: border-box;
     padding: 0;
-    /* ✅ Removed padding so text starts exactly at left */
 }
 
 .about-text {
@@ -48,9 +46,7 @@
     font-size: 1rem;
     line-height: 1.6;
     width: 100%;
-    /* ✅ Use full width of content area */
     text-align: justify;
-    /* ✅ Forces uniform line edges */
     margin: 0;
     padding: 0;
 }
