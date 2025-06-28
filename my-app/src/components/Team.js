@@ -20,8 +20,20 @@ function Team() {
               seamless integration and optimal performance.
             </p>
             <div className="social-icons">
-              <i className="fab fa-linkedin"></i>
-              <i className="fab fa-twitter"></i>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -36,8 +48,20 @@ function Team() {
               to meet specific security requirements.
             </p>
             <div className="social-icons">
-              <i className="fab fa-linkedin"></i>
-              <i className="fab fa-twitter"></i>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -52,14 +76,26 @@ function Team() {
               ensuring reliable and continuous operation.
             </p>
             <div className="social-icons">
-              <i className="fab fa-linkedin"></i>
-              <i className="fab fa-twitter"></i>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="assistance-box">
-        <h3>Need Assistance?</h3>
+        <h1>Need Assistance?</h1>
         <p>
           Contact our team for expert CCTV solutions tailored to your
           residential or commercial needs.
