@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
-          <h3>Explore</h3>
+          <h2>Explore</h2>
           <ul>
             <li>
               <a href="#">Residential Solutions</a>
@@ -20,7 +20,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-column">
-          <h3>Services</h3>
+          <h2>Services</h2>
           <ul>
             <li>
               <a href="#">CCTV Installation</a>
@@ -34,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-column">
-          <h3>Contact</h3>
+          <h2>Contact</h2>
           <ul>
             <li>
               <a href="#">Support</a>
@@ -45,7 +45,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-column newsletter">
-          <h3>Stay Updated</h3>
+          <h2>Stay Updated</h2>
           <p>Subscribe to our newsletter for the latest news and updates.</p>
           <form className="newsletter-form">
             <input type="email" placeholder="Enter your email" />
