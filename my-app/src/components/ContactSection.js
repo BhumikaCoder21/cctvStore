@@ -10,14 +10,20 @@ function ContactSection() {
           Fill out the form below to contact us for inquiries or scheduling.
         </p>
         <form>
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" placeholder="Enter your name" />
+          <div className="form-row">
+            <label htmlFor="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+          </div>
 
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" placeholder="Enter your email" />
+          <div className="form-row">
+            <label htmlFor="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+          </div>
 
-          <label htmlFor="message">Message</label>
-          <textarea id="message" placeholder="Type your message"></textarea>
+          <div className="form-row">
+            <label htmlFor="message">Message</label>
+            <textarea id="message" placeholder="Type your message"></textarea>
+          </div>
 
           <div className="terms">
             <input type="checkbox" id="terms" />
