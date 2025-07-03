@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    padding: 60px;
+    padding: 0px;
     background-color: #f9f9f9;
   }
   
@@ -12,11 +12,27 @@
   }
   
   .contact-form h2 {
+  margin-top: 0;
   margin-bottom: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
   font-size: 3rem;
-  color: #222;
+  color:  #007bff;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  animation: slideDownFade 1s ease-out;
+  }
+
+  @keyframes slideDownFade {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
   .contact-form p {
@@ -37,17 +53,29 @@
     margin-bottom: 4px;
     font-weight: 500;
   }
-  
-  .terms {
+ .terms {
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .terms input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-left: 35px;
   }
   
   .terms label {
-    margin-left: 6px;
-    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    font-size: medium;
   }
+  
   
   .contact-form button {
     padding: 12px;
@@ -58,6 +86,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: 0.3s ease;
+    margin-left: 35px;
+    width: 95%;
   }
   
   .contact-form button:hover {
