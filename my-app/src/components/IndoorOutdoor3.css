@@ -1,0 +1,43 @@
+.security-banner {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .security-banner-content {
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px 20px;
+    border-radius: 8px;
+    max-width: 800px;
+  }
+  
+  .security-banner-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .security-banner-content p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .call-button {
+    display: inline-block;
+    background: linear-gradient(90deg, #6f7dfb, #1e90ff);
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 40px;
+    transition: background 0.3s ease;
+  }
+  
+  .call-button:hover {
+    background: linear-gradient(90deg, #5f6de0, #187bcd);
+  }

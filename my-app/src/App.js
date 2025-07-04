@@ -12,6 +12,7 @@ import BrandsSection from "./components/BrandsSection";
 import Footer from "./components/Footer";
 import IndoorOutdoor1 from "./components/IndoorOutdoor1";
 import IndoorOutdoor2 from "./components/IndoorOutdoor2";
+import IndoorOutdoor3 from "./components/IndoorOutdoor3";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
               <>
                 <IndoorOutdoor1 />
                 <IndoorOutdoor2 />
+                <IndoorOutdoor3 />
                 <BrandsSection />
                 <Footer />
               </>
