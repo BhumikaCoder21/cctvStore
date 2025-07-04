@@ -14,7 +14,7 @@ function Navbar() {
       <h1>DarpanCCTV</h1>
       <ul className="navbar-links">
         <li>
-          <a href="#About">About Us</a>
+          <Link to="#About">About Us</Link>
         </li>
         <li>
           <Link to="/services">Our Services</Link>
@@ -36,7 +36,7 @@ function Navbar() {
                 <Link to="/ipCamera">IP Camera</Link>
               </li>
               <li>
-                <a href="#WirelessCCTV">Wireless CCTV Camera</a>
+                <Link to="/wireless">Wireless CCTV Camera</Link>
               </li>
               <li>
                 <a href="#VehiclePlate">Vehicle License Plate Reader Camera</a>
@@ -57,7 +57,7 @@ function Navbar() {
           )}
         </li>
         <li>
-          <a href="#Contact">Contact Us</a>
+          <Link to="#Contact">Contact Us</Link>
         </li>
       </ul>
     </nav>

@@ -21,6 +21,7 @@ import PTZ3 from "./components/PTZ3";
 import IPCamera1 from "./components/IPCamera1";
 import IPCamera2 from "./components/IPCamera2";
 import IPCamera3 from "./components/IPCamera3";
+import  Wireless1 from "./components/Wireless1";
 
 function App() {
   return (
@@ -85,7 +86,19 @@ function App() {
               <>
                 <IPCamera1 />
                 <IPCamera2 />
-                <IPCamera3/>
+                <IPCamera3 />
+                <IndoorOutdoor3 />
+                <BrandsSection />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/wireless"
+            element={
+              <>
+                <Wireless1 />
+              
                 <IndoorOutdoor3 />
                 <BrandsSection />
                 <Footer />
