@@ -13,6 +13,8 @@ import Footer from "./components/Footer";
 import IndoorOutdoor1 from "./components/IndoorOutdoor1";
 import IndoorOutdoor2 from "./components/IndoorOutdoor2";
 import IndoorOutdoor3 from "./components/IndoorOutdoor3";
+import Services1 from "./components/Services1";
+import Services2 from "./components/Services2";
 
 function App() {
   return (
@@ -40,6 +42,18 @@ function App() {
               <>
                 <IndoorOutdoor1 />
                 <IndoorOutdoor2 />
+                <IndoorOutdoor3 />
+                <BrandsSection />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/services"
+            element={
+              <>
+                <Services1 />
+                <Services2 />
                 <IndoorOutdoor3 />
                 <BrandsSection />
                 <Footer />

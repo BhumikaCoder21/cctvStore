@@ -17,7 +17,7 @@ function Navbar() {
           <a href="#About">About Us</a>
         </li>
         <li>
-          <a href="#Services">Our Services</a>
+          <Link to="/services">Our Services</Link>
         </li>
         <li className="dropdown">
           <button onClick={toggleDropdown} className="dropdown-toggle">
