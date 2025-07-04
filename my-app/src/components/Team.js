@@ -94,14 +94,6 @@ function Team() {
           </div>
         </div>
       </div>
-      <div className="assistance-box">
-        <h1>Need Assistance?</h1>
-        <p>
-          Contact our team for expert CCTV solutions tailored to your
-          residential or commercial needs.
-        </p>
-        <button className="contact-button">Contact Us</button>
-      </div>
     </section>
   );
 }
