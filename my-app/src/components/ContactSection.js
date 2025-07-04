@@ -42,12 +42,15 @@ function ContactSection() {
 
       <div className="contact-map">
         <iframe
-          title="Google Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.765002874073!2d85.48726267535736!3d26.596976076813746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec5a3623b37db7%3A0xa7b1904f0e9453cd!2sSitamarhi%2C%20Bihar%20843301%2C%20India!5e0!3m2!1sen!2sin!4v1720088670151!5m2!1sen!2sin"
+          title="Google Map - Sonbarsa"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14380.794612487436!2d85.522900!3d26.799900!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDQ3JzU5LjYiTiA4NcKwMzEnMjIuNCJF!5e0!3m2!1sen!2sin!4v1720099000000!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style={{ border: 0, borderRadius: "8px" }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+        />
       </div>
     </section>
   );

@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import "./Navbar.css";
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -25,7 +27,7 @@ function Navbar() {
           {isDropdownOpen && (
             <ul className="dropdown-menu">
               <li>
-                <a href="#IndoorOutdoor">Indoor & Outdoor CCTV Camera</a>
+                <Link to="/indoor-outdoor">Indoor & Outdoor CCTV</Link>
               </li>
               <li>
                 <a href="#PTZ">PTZ Camera</a>

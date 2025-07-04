@@ -23,7 +23,7 @@ function Team() {
             </p>
             <div className="social-details">
               <a
-                href="tel:+919876543210"
+                href="tel:+919973431660"
                 target="_blank"
                 rel="noopener noreferrer"
               >
