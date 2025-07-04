@@ -6,7 +6,9 @@ import About from "./components/About";
 import Features from "./components/Features"
 import Team from "./components/Team";
 import ContactSection from "./components/ContactSection";
+import BrandsSection from "./components/BrandsSection";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Features />
       <Team />
       <ContactSection />
+      <BrandsSection />
       <Footer />
     </div>
   );
