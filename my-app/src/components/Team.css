@@ -1,113 +1,128 @@
 .team {
-    padding: 60px 20px;
-    background-color: #f8f9fa;
-    text-align: center;
-  }
-  
-  .team h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .team p {
-    max-width: 700px;
-    margin: 0 auto 40px;
-    color: #555;
-  }
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
 
-  .team h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #1a1a1a;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
-  }
-  
-  .team p {
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #555;
-    max-width: 800px;
-    margin: 0 auto 40px auto;
-    line-height: 1.6;
-    text-align: center;
-  }
-  
-  .team-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 0 30px; 
-    box-sizing: border-box;
-  }
+.team h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+  margin-top: 0;
+}
 
-  .team-member {
-    flex: 1 1 calc(33.333% - 30px); 
-    background-color: #f8f8f8;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+.team p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #444;
+  max-width: 800px;
+  margin: 12px auto 40px auto;
+  line-height: 1.8;
+  text-align: center;
+}
 
-  .team-member:hover {
-    transform: translateY(-5px);
-  }
-  
-  .member-photo {
-  width: 100%;                
-  height: 300px;              
-  border-radius: 8px 8px 0 0; 
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 15px;
-  }
-  
-  .photo-aarav {
-    background-image: url('https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rnocslrjz.webp');
-  }
-  
-  .photo-priya {
-    background-image: url('https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rm0s7phiw.webp');
-  }
-  
-  .photo-rohan {
-    background-image: url('https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rygrmnf07.webp');
-  }
-  
-  .member-info h3 {
-    margin: 0;
-    font-size: 1.2rem;
-  }
-  
-  .member-info .role {
-    color: #888;
-    font-size: 0.9rem;
-    margin-bottom: 10px;
-  }
-  
-  .member-info p {
-    font-size: 0.95rem;
-    margin-bottom: 10px;
-  }
-  
-  .social-icons i {
-    font-size: 1.2rem;
-    margin-right: 10px;
-    color: #0077b5; 
-    cursor: pointer;
-  }
-  
-  .social-icons i:last-child {
-    color: #1da1f2; 
-  }
-  
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
 
-  
+.team-member {
+  flex: 1 1 100%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.member-info h3 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+  color: #222;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.member-info .role {
+  color: #777;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.member-info p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+}
+
+.social-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.social-details a {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: #333;
+  padding: 10px 5px;
+  transition: all 0.2s ease;
+}
+
+.social-details a:hover .icon {
+  filter: brightness(1.2);
+  transform: rotate(5deg);
+}
+
+.social-details a:hover span {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #000;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.icon.phone {
+  color: #0077cc;
+}
+
+.icon.whatsapp {
+  color: #25D366;
+}
+
+.icon.facebook {
+  color: #4267B2;
+}

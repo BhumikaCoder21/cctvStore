@@ -1,5 +1,6 @@
 import React from "react";
 import "./Team.css";
+import { FaPhone, FaWhatsapp, FaFacebookF } from "react-icons/fa";
 
 function Team() {
   return (
@@ -9,86 +10,79 @@ function Team() {
         Our dedicated team ensures top-notch CCTV service and installation for
         your security needs.
       </p>
+
       <div className="team-container">
+        {/* Team Member 1 */}
         <div className="team-member">
-          <div className="member-photo photo-aarav"></div>
           <div className="member-info">
-            <h3>Aarav Sharma</h3>
+            <h3>Dipendra Kumar</h3>
             <p className="role">Lead Technician</p>
             <p>
-              Aarav specializes in CCTV system design and installation, ensuring
-              seamless integration and optimal performance.
+              Dipendra specializes in CCTV system design and installation,
+              ensuring seamless integration and optimal performance.
             </p>
-            <div className="social-icons">
+            <div className="social-details">
               <a
-                href="https://www.linkedin.com"
+                href="tel:+919876543210"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-linkedin"></i>
+                <FaPhone className="icon phone" />
+                <span>Phone</span>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://wa.me/919876543210"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-twitter"></i>
+                <FaWhatsapp className="icon whatsapp" />
+                <span>WhatsApp</span>
+              </a>
+              <a
+                href="https://facebook.com/your.fb.id"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookF className="icon facebook" />
+                <span>Facebook</span>
               </a>
             </div>
           </div>
         </div>
 
+        {/* Team Member 2 */}
         <div className="team-member">
-          <div className="member-photo photo-priya"></div>
           <div className="member-info">
-            <h3>Priya Patel</h3>
+            <h3>Ajay Kumar</h3>
             <p className="role">Security Consultant</p>
             <p>
-              Priya provides expert advice on CCTV solutions, tailoring systems
+              Ajay provides expert advice on CCTV solutions, tailoring systems
               to meet specific security requirements.
             </p>
-            <div className="social-icons">
+            <div className="social-details">
               <a
-                href="https://www.linkedin.com"
+                href="tel:+917268932935"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-linkedin"></i>
+                <FaPhone className="icon phone" />
+                <span>Phone</span>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://wa.me/919812345678"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-twitter"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="team-member">
-          <div className="member-photo photo-rohan"></div>
-          <div className="member-info">
-            <h3>Rohan Verma</h3>
-            <p className="role">Maintenance Specialist</p>
-            <p>
-              Rohan is responsible for CCTV system maintenance and repairs,
-              ensuring reliable and continuous operation.
-            </p>
-            <div className="social-icons">
-              <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-linkedin"></i>
+                <FaWhatsapp className="icon whatsapp" />
+                <span>WhatsApp</span>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://facebook.com/ajay.secure.page"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-twitter"></i>
+                <FaFacebookF className="icon facebook" />
+                <span>Facebook</span>
               </a>
             </div>
           </div>
