@@ -83,7 +83,7 @@ const featuresData = [
 
 function Features() {
   return (
-    <section className="features" id="Services">
+    <section className="features" >
       <div className="features-grid">
         {featuresData.map((feature, index) => (
           <div className={`feature-card card-${index + 1}`} key={index}>

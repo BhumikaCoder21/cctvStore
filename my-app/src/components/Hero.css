@@ -33,31 +33,3 @@
             font-size: 1.1rem;
             text-align: justify;
         }
-.cta{
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            justify-content: center;
-    }
-.cta input[type="email"] {
-            padding: 0.75rem 1rem;
-            border-radius: 5px;
-            border: none;
-            font-size: 1rem;
-            width: 400px;
-        }
-    
-.cta button{
-            padding: 0.75rem 1.5rem;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: background 0.3s ease;
-        }
-    
-.cta button:hover{
-            background-color: #0056b3;
-        } 

@@ -12,10 +12,6 @@ function Hero() {
           Contact us today to learn more about our services and how we can help
           protect what matters most to you.
         </p>
-        <div className="cta">
-          <input type="email" placeholder="Enter your email" />
-          <button>Sign Up</button>
-        </div>
       </div>
     </section>
   );
