@@ -30,10 +30,10 @@ function Navbar() {
                 <Link to="/indoor-outdoor">Indoor & Outdoor CCTV</Link>
               </li>
               <li>
-                <a href="#PTZ">PTZ Camera</a>
+                <Link to="/ptz">PTZ Camera</Link>
               </li>
               <li>
-                <a href="#IPCamera">IP Camera</a>
+                <Link to="/ipCamera">IP Camera</Link>
               </li>
               <li>
                 <a href="#WirelessCCTV">Wireless CCTV Camera</a>
