@@ -42,16 +42,16 @@ function Navbar() {
                 <Link to="/vehicle">Vehicle License Plate Reader Camera</Link>
               </li>
               <li>
-                <a href="#NightVision">Long Range Night Vision CCTV Camera</a>
+                <Link to="/night">Long Range Night Vision CCTV Camera</Link>
               </li>
               <li>
-                <a href="#DVR">Digital Video Recorder (DVR)</a>
+                <Link to="/dvr">Digital Video Recorder (DVR)</Link>
               </li>
               <li>
-                <a href="#NVR">Network Video Recorder (NVR)</a>
+                <Link to="/nvr">Network Video Recorder (NVR)</Link>
               </li>
               <li>
-                <a href="#Fingerprint">Biometric Fingerprint Reader</a>
+                <Link to="/biometric">Biometric Fingerprint Reader</Link>
               </li>
             </ul>
           )}

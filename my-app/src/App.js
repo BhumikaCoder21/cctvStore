@@ -25,6 +25,10 @@ import Wireless1 from "./components/Wireless1";
 import Wireless2 from "./components/Wireless2";
 import Wireless3 from "./components/Wireless3";
 import Vehicle1 from "./components/Vehicle1";
+import Vehicle2 from "./components/Vehicle2";
+import Vehicle3 from "./components/Vehicle3";
+import Night1 from "./components/Night1";
+import Night2 from "./components/Night2";
 
 function App() {
   return (
@@ -115,6 +119,21 @@ function App() {
             element={
               <>
                 <Vehicle1 />
+                <Vehicle2 />
+                <Vehicle3 />
+                <IndoorOutdoor3 />
+                <BrandsSection />
+                <Footer />
+              </>
+            }
+          />
+
+          <Route
+            path="/night"
+            element={
+              <>
+                <Night1 />
+                <Night2 />
                 <IndoorOutdoor3 />
                 <BrandsSection />
                 <Footer />
