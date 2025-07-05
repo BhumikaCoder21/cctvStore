@@ -1,0 +1,62 @@
+.dvr3-section {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.dvr3-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.dvr3-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.dvr3-text {
+  flex: 1;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.dvr3-heading {
+  color: #222;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.dvr3-heading span {
+  color: green;
+}
+
+.dvr3-subheading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.dvr3-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.dvr3-list li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.dvr3-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
+}
+
+.dvr3-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

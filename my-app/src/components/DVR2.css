@@ -1,0 +1,57 @@
+.dvr-section {
+    padding: 40px;
+    background: #f4f9f9;
+    text-align: center;
+  }
+  
+  .dvr-heading {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .dvr-subheading {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .dvr-description {
+    font-size: 16px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+  }
+  
+  .dvr-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .dvr-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    width: 250px;
+    text-align: left;
+  }
+  
+  .dvr-card h4 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .dvr-card ul {
+    padding-left: 15px;
+    list-style: disc;
+  }
+  
+  .dvr-image {
+    display: block;
+    margin: 0 auto 10px auto;
+    height: 100px;
+    object-fit: contain;
+  }

@@ -1,0 +1,50 @@
+.bio-section {
+    padding: 40px 20px;
+    background-color: #f8f9fb;
+    text-align: center;
+  }
+  
+  .bio-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .bio-heading .highlight {
+    color: #4caf50;
+  }
+  
+  .bio-subheading {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .bio-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .bio-card {
+    flex: 0 0 30%; /* Each card takes ~30% of row */
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .bio-card h3 {
+    color: #00a6b4;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .bio-card p {
+    font-size: 14px;
+    color: #333;
+  }

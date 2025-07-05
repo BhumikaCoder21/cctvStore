@@ -29,6 +29,15 @@ import Vehicle2 from "./components/Vehicle2";
 import Vehicle3 from "./components/Vehicle3";
 import Night1 from "./components/Night1";
 import Night2 from "./components/Night2";
+import DVR1 from "./components/DVR1";
+import NVR1 from "./components/NVR1";
+import NVR2 from "./components/NVR2";
+import Bio1 from "./components/Bio1";
+import Bio2 from "./components/Bio2";
+import Bio3 from "./components/Bio3";
+import DVR2 from "./components/DVR2";
+import DVR3 from "./components/DVR3";
+
 
 function App() {
   return (
@@ -135,6 +144,47 @@ function App() {
               <>
                 <Night1 />
                 <Night2 />
+                <IndoorOutdoor3 />
+                <BrandsSection />
+                <Footer />
+              </>
+            }
+          />
+
+          <Route
+            path="/dvr"
+            element={
+              <>
+                <DVR1 />
+                <DVR2 />
+                <DVR3 />
+                <IndoorOutdoor3 />
+                <BrandsSection />
+                <Footer />
+              </>
+            }
+          />
+
+          <Route
+            path="/nvr"
+            element={
+              <>
+                <NVR1 />
+                 <NVR2 />
+                <IndoorOutdoor3 />
+                <BrandsSection />
+                <Footer />
+              </>
+            }
+          />
+
+          <Route
+            path="/bio"
+            element={
+              <>
+                <Bio1 />
+                <Bio2 />
+                <Bio3 />
                 <IndoorOutdoor3 />
                 <BrandsSection />
                 <Footer />
