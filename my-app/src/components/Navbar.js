@@ -39,7 +39,7 @@ function Navbar() {
                 <Link to="/wireless">Wireless CCTV Camera</Link>
               </li>
               <li>
-                <a href="#VehiclePlate">Vehicle License Plate Reader Camera</a>
+                <Link to="/vehicle">Vehicle License Plate Reader Camera</Link>
               </li>
               <li>
                 <a href="#NightVision">Long Range Night Vision CCTV Camera</a>
