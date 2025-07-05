@@ -14,7 +14,10 @@ function Navbar() {
       <h1>DarpanCCTV</h1>
       <ul className="navbar-links">
         <li>
-          <Link to="#About">About Us</Link>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <a href="#About">About Us</a>
         </li>
         <li>
           <Link to="/services">Our Services</Link>
@@ -57,7 +60,7 @@ function Navbar() {
           )}
         </li>
         <li>
-          <Link to="#Contact">Contact Us</Link>
+          <a href="#Contact">Contact Us</a>
         </li>
       </ul>
     </nav>

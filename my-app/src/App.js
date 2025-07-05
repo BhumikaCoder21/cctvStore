@@ -50,6 +50,7 @@ function App() {
               </>
             }
           />
+
           <Route
             path="/indoor-outdoor"
             element={
