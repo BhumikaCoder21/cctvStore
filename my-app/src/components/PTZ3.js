@@ -19,14 +19,14 @@ function PTZ3() {
     {
       title: "Value Series",
       description:
-        "This series features compact designs and high quality imaging to realize cost-efficiency and good user experience.",
+        "The Value Series is designed to offer a perfect balance between performance, affordability, and ease of use. These cameras feature compact and sleek designs, making them ideal for both residential and small business applications where space and aesthetics matter.",
       image:
         "https://www.cctvcameradelhi.in/images/Value-Series-ptz-camera.jpg",
     },
     {
       title: "Special Series",
       description:
-        "These robust cameras safeguard perimeters from above, providing a comprehensive overview with great details.",
+        "The Special Series is engineered for advanced surveillance needs. These robust and durable cameras are strategically designed to safeguard perimeters from elevated vantage points, delivering a comprehensive overview while capturing fine details with precision.",
       image:
         "https://www.cctvcameradelhi.in/images/Special-Series-ptz-cctv-camera.jpg",
     },
@@ -40,9 +40,17 @@ function PTZ3() {
       <div className="ptz3-grid">
         {categories.map((cat, index) => (
           <div className="ptz3-card" key={index}>
-            <img src={cat.image} alt={cat.title} className="ptz3-img" />
-            <h3>{cat.title}</h3>
-            <p>{cat.description}</p>
+            <div className="ptz3-card-header">
+              <h3>{cat.title}</h3>
+            </div>
+            <div className="ptz3-card-body">
+              <div className="ptz3-img-col">
+                <img src={cat.image} alt={cat.title} className="ptz3-img" />
+              </div>
+              <div className="ptz3-card-content">
+                <p>{cat.description}</p>
+              </div>
+            </div>
           </div>
         ))}
       </div>

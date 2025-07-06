@@ -6,7 +6,7 @@ function Service1() {
     <div
       className="security-banner"
       style={{
-        backgroundImage: `url("https://www.cctvcameradelhi.in/images/call-us-bg.jpg")`,
+        backgroundImage: `url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rhbcxhnxs.webp")`,
       }}
     >
       <div className="security-banner-content">

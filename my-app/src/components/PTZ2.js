@@ -21,16 +21,17 @@ function PTZ2() {
         </div>
         <div className="ptz-text">
           <p>
-            PTZ cameras use pan, tilt and zoom to provide both wide-area
-            coverage and great detail with a single camera. Great image quality
-            and the ability to zoom in make it possible to verify detected
-            security events. The result is maximum protection and minimum costs.
-            The cameras are equipped with a variety of intelligent features and
-            can move between pre-set positions and zoom in automatically in
-            response to detected events. They can also be easily integrated into
-            a system with other cameras. Our PTZ network camera offering include
-            extremely robust models suitable for the harshest environments and
-            climates.
+            PTZ (Pan-Tilt-Zoom) cameras offer a powerful combination of
+            wide-area surveillance and detailed monitoring—all from a single
+            device. With their high image quality and zoom capabilities, they
+            allow for quick and accurate verification of security events,
+            ensuring maximum protection while keeping costs low. These cameras
+            come equipped with intelligent features such as motion tracking,
+            automatic zoom on detected activity, and the ability to move between
+            pre-set positions. Seamless integration with other security systems
+            enhances overall surveillance coverage. Our range of PTZ network
+            cameras includes highly durable models built to perform reliably in
+            even the harshest environments and extreme weather conditions.
           </p>
         </div>
       </div>
