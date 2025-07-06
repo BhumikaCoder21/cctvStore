@@ -1,90 +1,108 @@
 .features {
-    padding: 40px;
-    background-color: #f8f9fa;
-  }
-  
-  .features-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 80px 50px;
-  }
-  
-  .feature-card {
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    color: white;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  }
-  
-  .feature-content {
-    background: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    padding: 15px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
-  
-  .feature-content h3 {
-    margin: 0 0 8px;
-    font-size: 1.1em;
-  }
-  
-  .feature-content p {
-    margin: 0;
-    font-size: 0.9em;
-  }
-  
-  /* Assign different background images to each card */
-  .card-1 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_r3txldzto.webp");
-  }
-  .card-2 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_roxj5z3tz.webp");
-  }
-  .card-3 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rkwy5zpfc.webp");
-  }
-  .card-4 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rrk2hue5l.webp");
-  }
-  .card-5 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rjtclafri.webp");
-  }
-  .card-6 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rejrdsazk.webp");
-  }
-  .card-7 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rrikbper5.webp");
-  }
-  .card-8 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rj5dboyli.webp");
-  }
-  .card-9 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rbvxovrqw.webp");
-  }
-  .card-10 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rhuc6v6k0.webp");
-  }
-  .card-11 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rb92drmmm.webp");
-  }
-  .card-12 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rlfk0vt9r.webp");
-  }
-  .card-13 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_RUTGCUNNO.webp");
-  }
-  .card-14 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_R5TIB19J4.webp");
-  }
-  .card-15 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rorgsd8xi.webp");
-  }
-  .card-16 {
-    background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rm8gkvojt.webp");
-  }
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px 50px;
+}
+
+.feature-card {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+/* Apply background image to the main card */
+.card-1 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_r3txldzto.webp"); }
+.card-2 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_roxj5z3tz.webp"); }
+.card-3 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rkwy5zpfc.webp"); }
+.card-4 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rrk2hue5l.webp"); }
+.card-5 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rjtclafri.webp"); }
+.card-6 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rejrdsazk.webp"); }
+.card-7 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rrikbper5.webp"); }
+.card-8 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rj5dboyli.webp"); }
+.card-9 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rbvxovrqw.webp"); }
+.card-10 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rhuc6v6k0.webp"); }
+.card-11 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rb92drmmm.webp"); }
+.card-12 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rlfk0vt9r.webp"); }
+.card-13 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_RUTGCUNNO.webp"); }
+.card-14 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_R5TIB19J4.webp"); }
+.card-15 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rorgsd8xi.webp"); }
+.card-16 { background-image: url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rm8gkvojt.webp"); }
+
+.feature-content {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+  z-index: 1;
+  transform: translateY(10px);
+  opacity: 0.85;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.feature-content h3 {
+  margin: 0 0 8px;
+  font-size: 1.1em;
+}
+
+.feature-content p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* Blurring effect overlaid */
+.feature-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: inherit; /* <-- Key line: inherit background from parent */
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(0px) brightness(1);
+  transition: all 0.4s ease;
+}
+
+/* Blur on hover */
+.feature-card:hover::before {
+  opacity: 1;
+  filter: blur(4px) brightness(0.85);
+}
+
+/* Text animation */
+.feature-card:hover .feature-content {
+  transform: translateY(0);
+  opacity: 1;
+  height: 50%;
+}
+
+.feature-card:hover .feature-content h3 {
+  color: #00c8b3;
+  font-weight: 700;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.feature-card:hover .feature-content p {
+  color: #ffffff;
+  font-weight: 500;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}

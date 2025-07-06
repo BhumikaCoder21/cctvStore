@@ -8,7 +8,7 @@ function Services1() {
       {/* Banner Section */}
       <div className="cctv-banner">
         <img
-          src="https://www.cctvcameradelhi.in/images/service=-page-header.jpg"
+          src="https://www.shutterstock.com/image-photo/modern-cctv-camera-on-wall-600nw-784897093.jpg"
           alt="CCTV Banner"
           className="banner-background"
         />
@@ -20,7 +20,6 @@ function Services1() {
           </p>
         </div>
       </div>
-
     </div>
   );
 }

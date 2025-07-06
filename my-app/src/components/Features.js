@@ -30,7 +30,7 @@ const featuresData = [
   {
     title: "Retail Store Security",
     description:
-      "Protect your retail store with our CCTV solutions.Monitor customer activity,prevent theft,and ensure a safe shopping environment. ",
+      "Protect your retail store with our CCTV solutions.Monitor customer activity,prevent theft,and ensure a safe shopping environment.",
   },
   {
     title: "Warehouse Monitoring",
