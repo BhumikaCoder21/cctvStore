@@ -37,11 +37,12 @@ import Bio2 from "./components/Bio2";
 import Bio3 from "./components/Bio3";
 import DVR2 from "./components/DVR2";
 import DVR3 from "./components/DVR3";
-
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="App">
         <Navbar />
         <Routes>
@@ -170,7 +171,7 @@ function App() {
             element={
               <>
                 <NVR1 />
-                 <NVR2 />
+                <NVR2 />
                 <IndoorOutdoor3 />
                 <BrandsSection />
                 <Footer />
@@ -191,6 +192,9 @@ function App() {
               </>
             }
           />
+
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<ContactSection />} />
         </Routes>
       </div>
     </BrowserRouter>

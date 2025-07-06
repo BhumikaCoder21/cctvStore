@@ -4,6 +4,7 @@ import "./Navbar.css";
 
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen((prev) => !prev);
@@ -11,21 +12,32 @@ function Navbar() {
 
   const closeDropdown = () => {
     setIsDropdownOpen(false);
+    setIsNavOpen(false);
+  };
+
+  const toggleNav = () => {
+    setIsNavOpen((prev) => !prev);
+    setIsDropdownOpen(false);
   };
 
   return (
     <nav className="navbar">
       <h1>DarpanCCTV</h1>
-      <ul className="navbar-links">
+      <div className="hamburger" onClick={toggleNav}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={`navbar-links${isNavOpen ? " open" : ""}`}>
         <li>
           <Link to="/" onClick={closeDropdown}>
             Home
           </Link>
         </li>
         <li>
-          <a href="#About" onClick={closeDropdown}>
+          <Link to="/about" onClick={closeDropdown}>
             About Us
-          </a>
+          </Link>
         </li>
         <li>
           <Link to="/services" onClick={closeDropdown}>
@@ -88,9 +100,9 @@ function Navbar() {
           )}
         </li>
         <li>
-          <a href="#Contact" onClick={closeDropdown}>
+          <Link to="/contact" onClick={closeDropdown}>
             Contact Us
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

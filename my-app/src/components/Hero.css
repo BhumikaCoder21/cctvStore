@@ -1,79 +1,101 @@
-.hero-slider {
-  width: 100%;
-  height: 85vh;
-  position: relative;
-}
-
-.slide {
+.hero-container {
+  background-image: url("https://www.securitastechnology.com/sites/securitastechnology.com/files/media/2022-01/Modern%20CCTV%20camera%20on%20a%20wall.jpg");
   background-size: cover;
   background-position: center;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide-overlay {
-  background: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide-content {
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  text-align: center;
-  width: 100%;             /* Full width inside container */
-  max-width: 1100px;       /* Fixed width for consistency */
-  min-height: 250px;       /* Fixed height to equalize boxes */
-  padding: 40px 50px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  margin: 0 auto;
+  height: 85vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 60px 20px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
 }
 
-
-.slide-content h1 {
-  font-size: 2.8rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+.hero-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
-.slide-content h3 {
-  font-size: 1.8rem;
-  color: #ffff00;
-  margin-bottom: 15px;
+.hero-container > * {
+  position: relative;
+  z-index: 2;
 }
 
-.slide-content p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.call-btn {
-  background: #00c8b3;
-  color: white;
+.hero-heading {
+  font-size: 3rem;
+  color: #ffffff;
   font-weight: 700;
-  padding: 6px 14px;
-  border-radius: 30px;
-  text-decoration: none;
-  display: inline-block;
-  width: fit-content;
-  white-space: nowrap;
-  font-size: 1rem;
-  margin: 20px auto 0; 
-  transition: background 0.3s;
-  height: 50px;         
-  line-height: 40px;     
-  padding: 0 16px;  
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.call-btn:hover {
-  background: #009c90;
+.hero-heading span {
+  color: #00bfff;
+  display: inline-block;
+  animation: pulse 1.8s ease-in-out infinite;
+  transform-origin: center;
+  padding: 0 4px;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.hero-box {
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  padding: 32px;
+  max-width: 950px;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  line-height: 2;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  margin: 40px auto 0 auto;
+  height: 300px;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .hero-heading {
+    font-size: 2.2rem;
+  }
+  .hero-box {
+    font-size: 1.1rem;
+    padding: 20px;
+    height: 220px;
+    margin: 25px auto 0 auto;
+  }
+  .hero-container {
+    height: 60vh;
+    padding: 40px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-heading {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .hero-box {
+    font-size: 0.95rem;
+    padding: 12px;
+    height: auto;
+    margin: 12px auto 0 auto;
+    border-radius: 8px;
+  }
+  .hero-container {
+    min-height: 60vh;
+    padding: 18px 4px 40px 4px;
+  }
 }

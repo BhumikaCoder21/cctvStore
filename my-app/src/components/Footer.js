@@ -29,7 +29,7 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="//ipCamera">
+              <Link to="/ipCamera">
                 <span>&#8250;</span> IP Camera
               </Link>
             </li>
@@ -87,11 +87,13 @@ function Footer() {
                 <span>&#8250;</span> Home
               </Link>
             </li>
+            
             <li>
               <Link to="/services">
                 <span>&#8250;</span> Our Services
               </Link>
             </li>
+            
           </ul>
         </div>
 
@@ -100,14 +102,14 @@ function Footer() {
           <h3>Our Company</h3>
           <ul>
             <li>
-              <a href="#About">
+              <a href="/about">
                 <span>&#8250;</span> About Us
               </a>
             </li>
             <li>
-              <a href="#Contact">
+              <Link to="/contact">
                 <span>&#8250;</span> Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="contact-info">
