@@ -153,7 +153,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2010 cctvcameradelhi.in All Rights Reserved.</p>
+        <p>© 2010 darpancctvcamera.in All Rights Reserved.</p>
       </div>
     </footer>
   );

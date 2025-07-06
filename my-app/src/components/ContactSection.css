@@ -92,3 +92,57 @@
   border: none;
   border-radius: 8px;
 }
+
+@media (max-width: 1024px) {
+  .contact-section {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 10px;
+  }
+  .assistance-box {
+    margin-left: 0;
+    padding: 24px 12px;
+    min-width: 0;
+  }
+  .contact-map {
+    margin-right: 0;
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    gap: 10px;
+    padding: 0 2px;
+  }
+  .assistance-box {
+    padding: 12px 4px;
+    border-radius: 8px;
+  }
+  .assistance-header h1 {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+  }
+  .assistance-header p {
+    font-size: 0.98rem;
+    max-width: 100%;
+  }
+  .contact-info {
+    gap: 7px;
+    margin-top: 6px;
+  }
+  .contact-item {
+    font-size: 0.98rem;
+    gap: 7px;
+  }
+  .contact-item .icon {
+    font-size: 1.1rem;
+  }
+  .contact-map {
+    min-height: 120px;
+    margin-right: 0;
+  }
+  .contact-map iframe {
+    border-radius: 6px;
+  }
+}
