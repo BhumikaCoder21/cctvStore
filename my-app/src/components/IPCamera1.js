@@ -1,26 +1,23 @@
 import React from "react";
-import "./IPCamera1.css";
+import "./Services1.css";
 
-function IPCamera1() {
+function Service1() {
   return (
-    <div>
-      {/* Banner Section */}
-      <div className="cctv-banner">
-        <img
-          src="https://www.cctvcameradelhi.in/images/service=-page-header.jpg"
-          alt="CCTV Banner"
-          className="banner-background"
-        />
-        <div className="banner-content">
-          <h1>IP CCTV Camera</h1>
-          <p>
-            Best Prises For Installations CCTV Camera & Security System
-            Installations
-          </p>
-        </div>
+    <div
+      className="security-banner"
+      style={{
+        backgroundImage: `url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rhbcxhnxs.webp")`,
+      }}
+    >
+      <div className="security-banner-content">
+        <h2>IP CCTV Camera</h2>
+        <p>
+          Reliable CCTV Camera & Security System Installations at the Best
+          Prices
+        </p>
       </div>
     </div>
   );
 }
 
-export default IPCamera1;
+export default Service1;

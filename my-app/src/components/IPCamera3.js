@@ -4,13 +4,14 @@ import "./IPCamera3.css";
 function IPCamera3() {
   return (
     <div className="ipcamera-section" id="ip-camera">
-      <h2 className="ipcamera-heading">
-        <span className="green">WIFI IP</span> CAMERA
-      </h2>
+      <h2 className="ipcamera-heading">WIFI IP CAMERA</h2>
       <p className="ipcamera-description">
-        There are Wired and WiFi IP Cameras available. WiFi IP Cameras can be
-        connected to the WiFi System making them Wireless IP Camera. Call us for
-        more information or installation of IP Camera.
+        We offer both Wired and WiFi IP Cameras to suit various installation
+        environments and user preferences. WiFi IP Cameras connect seamlessly to
+        your wireless network, eliminating the need for extensive cabling—making
+        them ideal for quick, flexible, and clutter-free installations. Whether
+        you need a robust wired setup or the convenience of wireless
+        connectivity, we have the right solution for you.
       </p>
       <div className="ipcamera-image-wrapper">
         <img
