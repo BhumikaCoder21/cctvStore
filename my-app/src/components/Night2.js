@@ -12,20 +12,17 @@ function Night2() {
           We offer our customers latest premium quality Long Range CCTV Camera
           at Best Price.
         </b>
-        We provide Accurate and Cost-effective solutions for Vehicle License
-        Plate Reader Camera in Delhi. These are best suited for slow moving
-        vehicles at entry and exit gates of housing societies and parking lot.
-        These can read Vehicle License Plate in pitch dark conditions also as
-        they are fitted with latest IR LED. These cameras have high resolution
-        of 700 TVL with BLC, OSD, AWC, HLC, and AGC features. If you are looking
-        for a reliable outdoor security camera with tons of night vision, then
-        you've landed in the right place. This security camera is equipped with
-        a 2MP Sony Image Sensor that provides exceptional quality video. When
-        compared to analog cameras, the image produced by this camera is clearer
-        thanks to it 2MP image sensor. Once purchased, our customers always come
-        back to purchase more of these. A Long range security camera refers to
-        any security camera that can focus at least 75 feet away from their
-        mounting point and still recognize a person.
+        At Darpan CCTV, we provide accurate and cost-effective solutions for
+        Vehicle License Plate Reader (LPR) Cameras — ideal for monitoring
+        slow-moving vehicles at entry and exit gates of housing societies,
+        parking lots, and commercial premises. These cameras are equipped with
+        the latest IR LED technology, enabling them to read number plates even
+        in pitch-dark conditions. With a high resolution of 700 TVL and features
+        like BLC, OSD, AWC, HLC, and AGC, they ensure superior performance in
+        varying lighting environments. If you're looking for a reliable outdoor
+        security camera with exceptional night vision, this is the perfect
+        choice. Powered by a 2MP Sony Image Sensor, it delivers crisp, clear
+        footage — significantly better than standard analog cameras.
       </p>
       <div className="ipcamera-image-wrapper">
         <img

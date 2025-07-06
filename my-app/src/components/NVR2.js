@@ -6,7 +6,7 @@ function NVR2() {
     <>
       <div className="ptz-section" id="ptz">
         <h2 className="ptz-heading">
-          <span className="green">NVR (Network Video Recorder)</span>
+         NVR (Network Video Recorder)
         </h2>
         <p className="ptz-subheading">
           We offer our customers latest premium quality Long Range CCTV Camera
@@ -44,7 +44,7 @@ function NVR2() {
       {/* Duplicated section with changed content */}
       <div className="ptz-section" id="ptz-duplicate">
         <h2 className="ptz-heading">
-          <span className="green">NVR (Network Video Recorder) Features</span>
+          NVR (Network Video Recorder) Features
         </h2>
         <div className="ptz-content">
           <div className="ptz-image">
