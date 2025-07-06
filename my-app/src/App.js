@@ -38,6 +38,7 @@ import Bio3 from "./components/Bio3";
 import DVR2 from "./components/DVR2";
 import DVR3 from "./components/DVR3";
 import ScrollToTop from "./components/ScrollToTop";
+import ContactHead from "./components/ContactHead";
 
 function App() {
   return (
@@ -193,8 +194,26 @@ function App() {
             }
           />
 
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<ContactSection />} />
+          <Route path="/about" element={
+  <>
+    <About />
+    <IndoorOutdoor3 />
+    <BrandsSection />
+    <Footer />
+  </>
+} />
+          <Route
+            path="/contact"
+            element={
+              <>
+                <ContactHead />
+                <ContactSection />
+                <IndoorOutdoor3 />
+                <BrandsSection />
+                <Footer />
+              </>
+            }
+          />
         </Routes>
       </div>
     </BrowserRouter>
