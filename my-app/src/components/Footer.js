@@ -8,7 +8,6 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaPinterestP,
 } from "react-icons/fa";
 
 function Footer() {
@@ -116,10 +115,10 @@ function Footer() {
               <FaEnvelope /> support@micronetgroup.co.in
             </p>
             <p>
-              <FaPhoneAlt /> +91 9911332333, 9911143370
+              <FaPhoneAlt /> +91 9973431660
             </p>
             <p>
-              <FaWhatsapp /> +91 9911332333
+              <FaWhatsapp /> +91 9973431660
             </p>
           </div>
           <div className="social-icons">
@@ -145,13 +144,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaInstagram />
-              </a>
-              <a
-                href="https://pinterest.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaPinterestP />
               </a>
             </div>
           </div>

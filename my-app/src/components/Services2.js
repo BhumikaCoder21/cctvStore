@@ -19,20 +19,20 @@ function Services2() {
           />
         </div>
         <div className="service-content">
-          <h3>CCTV Camera Installation</h3>
+          <h3>Professional CCTV Camera Installation</h3>
           <p>
-            We are leading CCTV Camera Installation Service Provider with many
-            years of experience in the industry. We provide affordable
-            professional CCTV Camera Installation Service in Delhi/NCR. We have
-            a team of well-trained, experienced, qualified CCTV installers. With
-            our CCTV installation service, we deploy a team of trained and
-            professional technicians to install your cctv surveillance system.
-            This includes the labour to mount the cameras, run all cables from
-            the cameras to the DVR, make all electrical and video connections
-            and make sure that the cameras are focused and adjusted properly.
-            Due to the variables of this type of installation, the installation
-            labour price will be estimated after detailed site-survey. Watch
-            cctv camera live online on smartphones, laptops, computers.
+            We specialize in delivering reliable and cost-effective CCTV Camera
+            Installation services. With years of experience in the surveillance
+            industry, our expert team ensures a seamless setup of high-quality
+            security systems tailored to your needs. Our trained and certified
+            technicians handle the complete installation process — from mounting
+            cameras, routing cables, and connecting to DVR/NVR systems, to
+            configuring and optimizing the setup for the best coverage. Every
+            installation is preceded by a detailed site survey to determine the
+            ideal layout and provide accurate pricing. With our solutions, you
+            can monitor your premises live anytime, anywhere — through
+            smartphones, laptops, and desktop computers — ensuring peace of mind
+            and enhanced security.
           </p>
         </div>
       </div>
@@ -46,16 +46,19 @@ function Services2() {
           />
         </div>
         <div className="service-content">
-          <h3>CCTV Camera AMC</h3>
+          <h3>CCTV AMC (Annual Maintenance Contract) Services</h3>
           <p>
-            We provide CCTV AMC (Annual Maintenance Contract), both
-            Comprehensive (Material with Service) and Non-Comprehensive (Service
-            Only) type for your existing CCTV Camera System and its cabling. We
-            have our own service center in Delhi to undertake repairs and
-            servicing. We have sufficient manpower, infrastructure, and
-            expertise to maintain the systems in working condition. Also, we can
-            help you upgrade your old existing Analog CCTV System to Analog
-            Megapixel HD or IP Camera System.
+            Ensure the long-term performance of your security systems with our
+            reliable CCTV AMC services. We offer both Comprehensive (including
+            parts and service) and Non-Comprehensive (service-only) contracts
+            tailored to suit your existing CCTV setup and cabling
+            infrastructure. Our dedicated service center in Delhi is fully
+            equipped to handle repairs, upgrades, and preventive maintenance.
+            Backed by skilled technicians and robust infrastructure, we ensure
+            your surveillance systems remain fully operational with minimal
+            downtime. Looking to modernize your setup? We also provide seamless
+            upgrades from older analog systems to advanced HD or IP camera
+            solutions for enhanced clarity and performance.
           </p>
         </div>
       </div>
@@ -71,14 +74,18 @@ function Services2() {
         <div className="service-content">
           <h3>Biometric Fingerprint Reader</h3>
           <p>
-            The next-generation biometric-based technology offers a dependable,
-            helpful, and authentic way of verifying/identifying an individual's
-            identity utilizing latest Biometric fingerprint scanner. Fingerprint
-            scanners are being used broadly for enrollment, identification &
-            verification in varied projects where the identity of people is
-            required. Our wide ranges of fingerprint scanner devices deliver
-            quick personality verification with a high level of security in a
-            consistent way for various Citizen or Person identity ventures.
+            Enhance your security and identity verification systems with our
+            cutting-edge biometric fingerprint readers. Designed for accuracy
+            and reliability, our devices provide a fast, secure, and
+            user-friendly method for identifying individuals based on their
+            unique fingerprints. Widely used in government, corporate, and
+            institutional projects, our fingerprint scanners are ideal for
+            enrollment, attendance, access control, and identity verification.
+            We offer a wide range of biometric solutions that ensure high-speed
+            recognition with consistent performance and top-tier data security.
+            Whether you're implementing a new system or upgrading an existing
+            one, our biometric solutions deliver the trust and efficiency you
+            need.
           </p>
         </div>
       </div>
@@ -94,11 +101,16 @@ function Services2() {
         <div className="service-content">
           <h3>IP Intelligent Video Door Phone</h3>
           <p>
-            Have peace of mind from being able to see, hear & speak to your
-            visitors before opening the door. Improve security for residential
-            Enhance comfort for residents Enhance intelligent experience for the
-            community and villa More convenient property management Simplify
-            installation, save costs
+            Experience enhanced home security and convenience with our IP-based
+            Intelligent Video Door Phones. These systems let you see, hear, and
+            talk to visitors at your door — all from the safety and comfort of
+            your smartphone or screen, before letting them in. Ideal for
+            residential buildings, villas, and gated communities, our video door
+            phones improve resident comfort, streamline property management, and
+            create a more intelligent living experience. Designed for easy
+            installation and low maintenance, they also help reduce overall
+            setup costs. Secure your entry points with modern technology that
+            combines safety, simplicity, and smart control.
           </p>
         </div>
       </div>
@@ -114,11 +126,20 @@ function Services2() {
         <div className="service-content">
           <h3>EPABX System</h3>
           <p>
-            EPABX system is generally great for saving money, and is also easy
-            to maintain and you should be able to connect multiples of
-            extensions to a single line from the telephone exchange. Call
-            forwarding Call accounting Selective outgoing calling feature
-            Conference calling Voice mail
+            Streamline communication within your organization or residential
+            complex with our cost-effective EPABX (Electronic Private Automatic
+            Branch Exchange) systems. These intercom solutions allow you to
+            connect multiple extensions to a single telephone line, improving
+            internal communication while significantly reducing telephony costs.
+            Our EPABX systems are easy to install, simple to maintain, and come
+            with a wide range of features, including:
+            <ul className="service-points">
+              <li>📞 Call forwarding</li>
+              <li>🧾 Call accounting</li>
+              <li>🚫 Selective outgoing call restrictions</li>
+              <li>👥 Conference calling</li>
+              <li>✉️ Voice mail support</li>
+            </ul>
           </p>
         </div>
       </div>

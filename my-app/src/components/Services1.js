@@ -1,27 +1,23 @@
-
 import React from "react";
 import "./Services1.css";
 
-function Services1() {
+function Service1() {
   return (
-    <div>
-      {/* Banner Section */}
-      <div className="cctv-banner">
-        <img
-          src="https://www.shutterstock.com/image-photo/modern-cctv-camera-on-wall-600nw-784897093.jpg"
-          alt="CCTV Banner"
-          className="banner-background"
-        />
-        <div className="banner-content">
-          <h1>Our Services</h1>
-          <p>
-            We look security solutions from a different angle, which makes us
-            stand beyond and above our competitors.
-          </p>
-        </div>
+    <div
+      className="security-banner"
+      style={{
+        backgroundImage: `url("https://www.cctvcameradelhi.in/images/call-us-bg.jpg")`,
+      }}
+    >
+      <div className="security-banner-content">
+        <h2>OUR SERVICES</h2>
+        <p>
+          We look security solutions from a different angle, which makes us
+          stand beyond and above our competitors.
+        </p>
       </div>
     </div>
   );
 }
 
-export default Services1;
+export default Service1;

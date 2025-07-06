@@ -12,12 +12,12 @@ function IndoorOutdoor3() {
       <div className="security-banner-content">
         <h2>PREMIUM QUALITY CCTV CAMERA SOLUTION FOR ALL AROUND SECURITY</h2>
         <p>
-          We are a name you can trust when it comes to all-round security
-          solutions. We understand that few things are inevitable—security, for
-          instance.
+          We are a trusted name in delivering complete security solutions.
+          Because when it comes to protection, some things are not optional—
+          <b>security</b> is one of them.
         </p>
-        <a href="tel:+919911332333" className="call-button">
-          📞 +91 9911332333, 9911143370
+        <a href="tel:+91 9973431660" className="call-button">
+          📞 +91 9973431660
         </a>
       </div>
     </div>
