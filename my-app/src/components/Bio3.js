@@ -6,7 +6,7 @@ function Bio3() {
   return (
     <div className="bio-section">
       <h2 className="bio-heading">
-        BENEFITS OF <span className="highlight">BIOMETRIC</span> ATTENDANCE
+        BENEFITS OF BIOMETRIC ATTENDANCE
         MACHINE
       </h2>
       <p className="bio-subheading">

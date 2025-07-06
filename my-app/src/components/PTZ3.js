@@ -35,7 +35,7 @@ function PTZ3() {
   return (
     <div className="ptz3-section" id="product-categories">
       <h2 className="ptz3-heading">
-        <span className="green">PRODUCT</span> CATEGORIES
+        PRODUCT CATEGORIES
       </h2>
       <div className="ptz3-grid">
         {categories.map((cat, index) => (

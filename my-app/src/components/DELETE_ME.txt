@@ -1,0 +1,4 @@
+Wireless1.css is not imported in any JS file and is safe to delete.
+Wireless2.css and Wireless3.css are imported and should be kept.
+
+Deleting Wireless1.css...

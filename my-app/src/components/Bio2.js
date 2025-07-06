@@ -6,9 +6,8 @@ function Bio2() {
     <div>
       <div className="ptz-section" id="ptz">
         <h2 className="ptz-heading">
-          <span className="green">
-            Biometric Attendance Machine Installation
-          </span>
+          {" "}
+          Biometric Attendance Machine Installation
         </h2>
         <p className="ptz-subheading">
           We offer our customers latest premium quality Biometric Attendance
@@ -24,28 +23,24 @@ function Bio2() {
           </div>
           <div className="ptz-text">
             <p>
-              Cctvcameradelhi.in is one of the leading Biometric Attendance
-              System and Access Control System provider in delhi. We are
-              restless in pursuit to implement latest technologies into our
-              products and provide the excellent solution to our customers and
-              users. In order to achieve this, we have set up a team of some
-              highly qualified professionals, who work tirelessly to bring up
-              something creative and technically advanced. We offer an amazing
-              line of Biometric Devices ranging from Fingerprint Attendance
-              System to Access Control. CCTV Camera Delhi also provide every
-              solution related to Biometrics machine. We are one of the
-              well-known providers of Biometric System and Access Control
-              Machine with most recent advancements. We have experienced
-              specialist co-op, so we realize that how to manage customers
-              according to the necessities. We have the eSSL Biometric
-              Attendance Machine Price in Noida , Gurgaon, Delhi offering
-              gigantic assortment and best administrations in brief times pan.
+              Darpan CCTV is one of the leading suppliers of Biometric
+              Attendance Systems and Access Control Devices. We are dedicated to
+              bringing the latest technology to our customers at affordable
+              prices, with a strong focus on quality, service, and reliability.
+              Our team is made up of skilled professionals who work hard to
+              provide smart, easy-to-use solutions for offices, schools, shops,
+              and other establishments. Whether you're looking for a Fingerprint
+              Attendance Machine or a complete Access Control setup, we offer a
+              wide range of options to suit your needs.With years of experience
+              in the field, we understand what customers really need — and make
+              sure every product and service meets those expectations. From
+              consultation to installation and support, we’re here to help every
+              step of the way.
             </p>
           </div>
         </div>
       </div>
-
-      </div>
+    </div>
   );
 }
 

@@ -1,26 +1,23 @@
 import React from "react";
-import "./DVR1.css";
+import "./Services1.css";
 
-function DVR1() {
+function Service1() {
   return (
-    <div>
-      {/* Banner Section */}
-      <div className="cctv-banner">
-        <img
-          src="https://www.cctvcameradelhi.in/images/service=-page-header.jpg"
-          alt="CCTV Banner"
-          className="banner-background"
-        />
-        <div className="banner-content">
-          <h1>DVR (Digital Video Recorder)</h1>
-          <p>
-            Full HD 1080P Digital Video Recording System and Access Your System
-            From Any Internet Connected Device 24/7
-          </p>
-        </div>
+    <div
+      className="security-banner"
+      style={{
+        backgroundImage: `url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rhbcxhnxs.webp")`,
+      }}
+    >
+      <div className="security-banner-content">
+        <h2>DVR (Digital Video Recorder)</h2>
+        <p>
+          Full HD 1080P Digital Video Recording System and Access Your System
+          From Any Internet Connected Device 24/7
+        </p>
       </div>
     </div>
   );
 }
 
-export default DVR1;
+export default Service1;

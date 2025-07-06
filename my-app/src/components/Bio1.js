@@ -1,26 +1,23 @@
 import React from "react";
-import "./Bio1.css";
+import "./Services1.css";
 
-function Bio1() {
+function Service1() {
   return (
-    <div>
-      {/* Banner Section */}
-      <div className="cctv-banner">
-        <img
-          src="https://www.cctvcameradelhi.in/images/service=-page-header.jpg"
-          alt="CCTV Banner"
-          className="banner-background"
-        />
-        <div className="banner-content">
-          <h1>Biometric Attendance Machine</h1>
-          <p>
-            We offer an amazing line of Biometric Devices ranging from
-            Fingerprint Attendance System to Access Control.
-          </p>
-        </div>
+    <div
+      className="security-banner"
+      style={{
+        backgroundImage: `url("https://aisite.10web.io/65/wp-content/uploads/sites/167/2025/06/tenweb_media_rhbcxhnxs.webp")`,
+      }}
+    >
+      <div className="security-banner-content">
+        <h2>Biometric Attendance Machine</h2>
+        <p>
+          We offer an amazing line of Biometric Devices ranging from Fingerprint
+          Attendance System to Access Control.
+        </p>
       </div>
     </div>
   );
 }
 
-export default Bio1;
+export default Service1;
