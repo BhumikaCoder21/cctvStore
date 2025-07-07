@@ -17,15 +17,15 @@ function ContactSection() {
         <div className="contact-info">
           <div className="contact-item">
             <FaUser className="icon user" />
-            <span>Ramesh Kumar</span>
+            <span>Dipendra Kumar</span>
           </div>
           <div className="contact-item">
             <FaPhone className="icon phone" />
-            <span>+91 98765 43210</span>
+            <span>+91 99734 31660</span>
           </div>
           <div className="contact-item">
             <FaWhatsapp className="icon whatsapp" />
-            <span>+91 98765 43210</span>
+            <span>+91 99734 31660</span>
           </div>
           <div className="contact-item">
             <FaEnvelope className="icon email" />

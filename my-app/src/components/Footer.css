@@ -2,7 +2,7 @@
   background-color: #111;
   color: #ccc;
   padding: 40px 20px 20px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   width: 100%;
 }
 
@@ -17,7 +17,7 @@
 
 .footer-column {
   width: 100%;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .footer-column h3 {
@@ -26,7 +26,7 @@
   font-size: 18px;
   font-weight: bold;
   text-align: left;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .footer-column ul {
@@ -58,7 +58,7 @@
   width: 100%;
   text-align: left;
   line-height: 1.5;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .footer-column a:hover {
@@ -72,50 +72,24 @@
   align-items: center;
   gap: 6px;
   text-align: left;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
-.social-icons {
-  margin-top: 15px;
+.contact-info svg {
+  font-size: 1.2em;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 
-.social-icons p {
-  margin-bottom: 10px;
-  font-size: 14px;
-  color: #fff;
-  text-align: left;
-  font-family: 'Arial', sans-serif;
-}
-
-.social-icons .icons {
-  display: flex;
-  gap: 6px;                /* Reduced spacing */
-  align-items: center;
-}
-
-.social-icons .icons a {
-  font-size: 18px;
-  color: #ccc;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  padding: 10px;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  margin-right: 4px;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.social-icons .icons a:hover {
-  color: #00cc99;
-  border-color: #00cc99;
-  background-color: #222;
-}
-
+.contact-info p:nth-child(1) svg {
+  color: #ff9800;
+} /* Email: blue (ContactHead style) */
+.contact-info p:nth-child(2) svg {
+  color: #00bcd4;
+} /* Phone: teal (ContactHead style) */
+.contact-info p:nth-child(3) svg {
+  color: #25d366;
+} /* WhatsApp: WhatsApp green */
 
 .footer-bottom {
   text-align: center;
@@ -124,15 +98,13 @@
   padding-top: 15px;
   font-size: 13px;
   color: #888;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
-#second ul li{
-  
-    padding: 6px 0;  /* Increased from 6px to 10px */
-    color: #fff;
-    font-size: 15px;
-    font-weight: 400;
-    
+#second ul li {
+  padding: 6px 0; /* Increased from 6px to 10px */
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 @media (max-width: 1200px) {
@@ -171,14 +143,10 @@
     font-size: 1rem;
     margin-bottom: 8px;
   }
-  .footer-column a, .footer-column li, .contact-info p {
+  .footer-column a,
+  .footer-column li,
+  .contact-info p {
     font-size: 0.95rem;
-  }
-  .social-icons .icons a {
-    font-size: 15px;
-    width: 32px;
-    height: 32px;
-    padding: 6px;
   }
   .footer-bottom {
     font-size: 11px;

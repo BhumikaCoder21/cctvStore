@@ -1,14 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import {
-  FaEnvelope,
-  FaPhoneAlt,
-  FaWhatsapp,
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -87,17 +80,16 @@ function Footer() {
                 <span>&#8250;</span> Home
               </Link>
             </li>
-            
+
             <li>
               <Link to="/services">
                 <span>&#8250;</span> Our Services
               </Link>
             </li>
-            
           </ul>
         </div>
 
-        {/* Contact Info & Social Icons */}
+        {/* Contact Info */}
         <div className="footer-column">
           <h3>Our Company</h3>
           <ul>
@@ -122,32 +114,6 @@ function Footer() {
             <p>
               <FaWhatsapp /> +91 9973431660
             </p>
-          </div>
-          <div className="social-icons">
-            <p>We are Social</p>
-            <div className="icons">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFacebookF />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaInstagram />
-              </a>
-            </div>
           </div>
         </div>
       </div>

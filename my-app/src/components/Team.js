@@ -31,7 +31,7 @@ function Team() {
                 <span>Phone</span>
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/9199734 31660"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -43,7 +43,10 @@ function Team() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaEnvelope className="icon email" style={{ color: "#e67e22" }} />
+                <FaEnvelope
+                  className="icon email"
+                  style={{ color: "#e67e22" }}
+                />
                 <span>Email</span>
               </a>
             </div>
@@ -61,7 +64,7 @@ function Team() {
             </p>
             <div className="social-details">
               <a
-                href="tel:+917268932935"
+                href="tel:+9199734 31660"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -69,7 +72,7 @@ function Team() {
                 <span>Phone</span>
               </a>
               <a
-                href="https://wa.me/919812345678"
+                href="https://wa.me/919973431660"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -81,7 +84,10 @@ function Team() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaEnvelope className="icon email" style={{ color: "#e67e22" }} />
+                <FaEnvelope
+                  className="icon email"
+                  style={{ color: "#e67e22" }}
+                />
                 <span>Email</span>
               </a>
             </div>

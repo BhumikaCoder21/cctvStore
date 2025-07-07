@@ -11,7 +11,7 @@ function About() {
           <h2>About DarpanCCTV</h2>
           <p>
             DarpanCCTV has been a trusted provider of CCTV installation and
-            maintenance services since 2010. Our mission is to enhance security
+            maintenance services. Our mission is to enhance security
             for homes and businesses through reliable surveillance solutions. We
             value integrity, professionalism, and customer satisfaction, with a
             dedicated team of experts committed to delivering seamless security

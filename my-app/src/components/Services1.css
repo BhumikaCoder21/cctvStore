@@ -18,27 +18,20 @@
 }
 
 .security-banner-content h2 {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.security-banner-content p {
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.call-button {
-  display: inline-block;
-  background: linear-gradient(90deg, #6f7dfb, #1e90ff);
+  font-size: 3.0rem;
+  font-weight: 1800;
+  margin-bottom: 40px; /* Increased space below h1 */
+  font-family: "Montserrat", sans-serif;
   color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 12px 25px;
-  border-radius: 40px;
-  transition: background 0.3s ease;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
-.call-button:hover {
-  background: linear-gradient(90deg, #5f6de0, #187bcd);
+.security-banner-content h5 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1500; /* Increased font weight (5x of 400) */
+  color: #5e9fee; /* Dark blue */
 }
+

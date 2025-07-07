@@ -11,10 +11,10 @@ function Service1() {
     >
       <div className="security-banner-content">
         <h2>OUR SERVICES</h2>
-        <p>
+        <h5>
           We look security solutions from a different angle, which makes us
           stand beyond and above our competitors.
-        </p>
+        </h5>
       </div>
     </div>
   );
