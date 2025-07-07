@@ -1,0 +1,41 @@
+.contact-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.2s ease;
+  }
+  
+  .contact-item .icon {
+    font-size: 22px;
+  }
+  
+  .contact-item.phone .icon {
+    color: #00bcd4;
+  }
+  
+  .contact-item.whatsapp .icon {
+    color: #25d366;
+  }
+  
+  .contact-item.email .icon {
+    color: #ff9800;
+  }
+  
+  .contact-item:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+  }
+  

@@ -21,20 +21,17 @@ function Vehicle2() {
         </div>
         <div className="ptz-text">
           <p>
-            We provide Accurate and Cost-effective solutions for Vehicle License
-            Plate Reader Camera in Delhi. These are best suited for slow moving
-            vehicles at entry and exit gates of housing societies and parking
-            lot. These can read Vehicle License Plate in pitch dark conditions
-            also as they are fitted with latest IR LED. These cameras have high
-            resolution of 700 TVL with BLC, OSD, AWC, HLC, and AGC features.
-            Designing a surveillance system to monitor traffic and capture
-            license plates is a more technical process than designing a
-            traditional security camera system. We can assist you in planning a
-            system and provide lifetime technical support after the sale. Please
-            email us your system requirements or call us at 9911143370 for
-            assistance. What is an LPR camera? An LPR camera is a specialized
-            type of video surveillance camera that is designed to capture the
-            numbers and letters of license plates on moving vehicles.
+            At Darpan CCTV Shop, we provide accurate and cost-effective
+            solutions for Vehicle License Plate Reader (LPR) Cameras. These
+            cameras are ideal for monitoring slow-moving vehicles at the entry
+            and exit points of housing societies, commercial buildings, and
+            parking lots. <br/>Our LPR cameras are equipped with advanced IR LEDs to
+            capture license plates even in pitch-dark conditions, and feature
+            high-resolution sensors (700 TVL) along with BLC, OSD, AWC, HLC, and
+            AGC technologies. Designing a surveillance system for license plate
+            recognition requires more technical precision than a typical
+            security setup. We're here to assist you in planning the right
+            system and offer lifetime technical support post-installation.
           </p>
         </div>
       </div>

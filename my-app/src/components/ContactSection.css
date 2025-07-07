@@ -4,7 +4,7 @@
   background-color: #f0f4f8;
   border-radius: 12px;
   text-align: left;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   height: auto;
   flex: 1 1 400px;
   display: flex;
@@ -14,7 +14,7 @@
 }
 
 .assistance-header h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   color: #1a1a1a;
@@ -40,13 +40,17 @@
 .contact-item {
   display: flex;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 7.5rem;
   color: #222;
-  gap: 12px;
+  gap: 14px;
 }
 
 .contact-item .icon {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.contact-item span {
+  color: #187bcd;
 }
 
 /* Individual icon colors */
@@ -59,15 +63,19 @@
 }
 
 .icon.whatsapp {
-  color: #25D366;
+  color: #25d366;
 }
 
 .icon.facebook {
-  color: #4267B2;
+  color: #4267b2;
+}
+
+.icon.email {
+  color: #e67e22;
 }
 
 .contact-item a {
-  color: #4267B2;
+  color: #4267b2;
   text-decoration: none;
   font-weight: 500;
 }

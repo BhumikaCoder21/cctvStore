@@ -10,11 +10,11 @@ function Service1() {
       }}
     >
       <div className="security-banner-content">
-        <h2>Biometric Attendance Machine</h2>
-        <p>
+        <h1>Biometric Attendance Machine</h1>
+        <h5>
           We offer an amazing line of Biometric Devices ranging from Fingerprint
           Attendance System to Access Control.
-        </p>
+        </h5>
       </div>
     </div>
   );

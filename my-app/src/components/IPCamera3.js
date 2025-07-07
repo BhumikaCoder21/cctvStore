@@ -1,5 +1,5 @@
 import React from "react";
-import "./IPCamera3.css";
+import "./Wireless3.css";
 
 function IPCamera3() {
   return (
@@ -13,6 +13,7 @@ function IPCamera3() {
         you need a robust wired setup or the convenience of wireless
         connectivity, we have the right solution for you.
       </p>
+
       <div className="ipcamera-image-wrapper">
         <img
           src="https://www.cctvcameradelhi.in/images/IP-CAMERA-installation-delhi.jpg"

@@ -35,26 +35,7 @@ function DVR3() {
           />
         </div>
       </div>
-
-      {/* Additional section with paragraph on left and image on right */}
-      <div className="dvr3-container reverse">
-        <div className="dvr3-image">
-          <img
-            src="https://www.cctvcameradelhi.in/images/Digital-Video-Recorder.jpg" // You can change this too
-            alt="DVR System"
-          />
-        </div>
-        <div className="dvr3-text">
-          <h3 className="dvr3-subheading">DVR System Benefits</h3>
-          <ul className="dvr3-list">
-            <li>Easy installation and scalability</li>
-            <li>Lower cost compared to NVR systems</li>
-            <li>Reliable offline recording</li>
-            <li>Supports analog and hybrid systems</li>
-            <li>Remote playback via mobile apps</li>
-          </ul>
-        </div>
-      </div>
+      {/* End of first dvr3-container */}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactSection.css";
-import { FaPhone, FaWhatsapp, FaFacebookF, FaUser } from "react-icons/fa";
+import { FaPhone, FaWhatsapp, FaUser, FaEnvelope } from "react-icons/fa";
 
 function ContactSection() {
   return (
@@ -28,14 +28,8 @@ function ContactSection() {
             <span>+91 98765 43210</span>
           </div>
           <div className="contact-item">
-            <FaFacebookF className="icon facebook" />
-            <a
-              href="https://facebook.com/yourpage"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Facebook Page
-            </a>
+            <FaEnvelope className="icon email" />
+            <span>info@darpancctv.com</span>
           </div>
         </div>
       </div>

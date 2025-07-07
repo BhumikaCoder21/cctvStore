@@ -65,18 +65,19 @@ body {
 }
 
 .service-content h3 {
-  font-size: 1.7rem;
-  color: blue;
-  margin-bottom: 1rem;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .service-content p {
-  font-size: 1rem;
+  font-size: 16px;
   color: #555;
-  line-height: 1.6;
-  margin: 0;
+  line-height: 2.0;
+  margin: 0 0 25px 0;
   font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -100,7 +101,9 @@ body {
   position: relative;
   padding-left: 1.2rem;
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 16px;
   color: #444;
-  line-height: 1.5;
+  line-height: 1.7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }

@@ -21,24 +21,16 @@ function Wireless2() {
         </div>
         <div className="ptz-text">
           <p>
-            We provide Wireless CCTV Camera System that is very easy-to-install,
-            can be used both Indoors and Outdoors with great wireless range and
-            night vision capability without having to run cables. These systems
-            consist of CCTV Camera, transmitters, and receivers. Transmitter
-            transmits the video and audio feed from camera wirelessly to the
-            receiver that in turn transmits data to monitor or recording device.
-            We offer reliable wireless solutions to our customers. Wireless cctv
-            camera System functions best when there is a clear line of sight
-            between the camera and the receiver. Though a transmitter can send
-            data through walls, these obstacles weaken the signal and shorten
-            the transmission range. One of the major advantages of Wireless CCTV
-            Cameras is the ability to position them anywhere as long as they are
-            within the range of the receiver. These devices are easy to set up
-            even for people with no technical knowledge. We offer latest range
-            of Wireless CCTV Camera in Delhi, India with Recording in SD Card or
-            Hard Disk Drive, Online Remote View on Mobile, Laptop, and Computer.
-            Contact for Wireless CCTV Camera Installation in Delhi, NCR India.
-            Wireless CCTV Camera
+            We provide Wireless CCTV Camera Systems that are easy to install,
+            suitable for both indoor and outdoor use, and offer strong wireless
+            range with night vision — no cabling required. These systems include
+            a CCTV camera, transmitter, and receiver. The transmitter sends
+            video and audio wirelessly to the receiver, which connects to a
+            monitor or recording device. Wireless cameras work best with a clear
+            line of sight, though signals can pass through walls with reduced
+            range.We offer the latest wireless CCTV cameras with SD card or HDD
+            recording, and remote viewing on mobile, laptop, or computer.
+            Contact Darpan CCTV Shop for Wireless CCTV Camera Installation.
           </p>
         </div>
       </div>

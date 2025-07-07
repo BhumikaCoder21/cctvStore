@@ -10,11 +10,11 @@ function Service1() {
       }}
     >
       <div className="security-banner-content">
-        <h2>Wireless CCTV Camera</h2>
-        <p>
+        <h1>Wireless CCTV Camera</h1>
+        <h5>
           Reliable CCTV Camera & Security System Installations at the Best
           Prices
-        </p>
+        </h5>
       </div>
     </div>
   );

@@ -8,16 +8,15 @@ function Wireless3() {
         <span className="green">Wireless CCTV Camera Installation</span>
       </h2>
       <p className="ipcamera-description">
-        Wireless cameras from CCTV Camera Delhi provide the freedom to install
-        at any location where power is available without running a video cable,
-        while maintaining the high standard that wired security cameras offer.
-        You get several recording options, such as continuous recording or
-        scheduled or motion activated recording to a computer / NVR or straight
-        to a microSD card (not included). Indoor wireless cameras also feature a
-        built-in microphone, two-way bi-directional audio, and Pan Tilt Zoom. If
-        you don’t have the time or resources to be constantly monitoring your
-        security system, our wireless IP cameras can send you push notifications
-        or email alerts straight to your smartphone or tablet.
+        Wireless cameras from Darpan CCTV Shop give you the freedom to install
+        them anywhere with power — no video cables required — while maintaining
+        the quality of wired systems. You get multiple recording options like
+        continuous, scheduled, or motion-activated recording to a computer, NVR,
+        or microSD card. Indoor wireless cameras also include a built-in
+        microphone, two-way audio, and Pan-Tilt-Zoom functionality. If you're
+        not always available to monitor your system, our wireless IP cameras can
+        send instant push notifications or email alerts to your smartphone or
+        tablet.
       </p>
       <div className="ipcamera-image-wrapper">
         <img

@@ -207,8 +207,11 @@ function App() {
             element={
               <>
                 <ContactHead />
+                <Team />
+                
                 <ContactSection />
-                <IndoorOutdoor3 />
+                
+                
                 <BrandsSection />
                 <Footer />
               </>

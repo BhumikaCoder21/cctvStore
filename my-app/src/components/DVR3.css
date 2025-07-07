@@ -1,62 +1,144 @@
 .dvr3-section {
-  padding: 40px 20px;
-  background-color: #f8f8f8;
-  font-family: Arial, sans-serif;
+  padding: 3rem 1rem;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .dvr3-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: stretch;
+  justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  gap: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  margin-bottom: 56px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
 }
 
-.dvr3-container.reverse {
-  flex-direction: row-reverse;
+.dvr3-image {
+  flex: 1 1 340px;
+  min-width: 260px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+}
+
+.dvr3-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  object-fit: cover;
+  min-height: 320px;
 }
 
 .dvr3-text {
-  flex: 1;
-  padding: 20px;
-  min-width: 300px;
+  max-width: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  padding: 28px 18px;
 }
 
 .dvr3-heading {
-  color: #222;
-  font-size: 28px;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #333;
 }
 
 .dvr3-heading span {
-  color: green;
+  color: #2e7d32;
 }
 
 .dvr3-subheading {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #444;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2.5rem;
 }
 
 .dvr3-list {
   list-style-type: disc;
-  padding-left: 20px;
+  padding-left: 1.2em;
+  margin-bottom: 0;
 }
 
 .dvr3-list li {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
   color: #333;
+  font-size: 1rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  line-height: 1.6;
+  text-indent: 0;
+  padding-left: 0.2em;
 }
 
-.dvr3-image {
-  flex: 1;
-  padding: 20px;
-  text-align: center;
-  min-width: 300px;
+@media (max-width: 768px) {
+  .dvr3-container {
+    flex-direction: column;
+    border-radius: 12px;
+  }
+  .dvr3-image, .dvr3-text {
+    max-width: 100vw;
+    min-width: 0;
+    padding: 16px 4px;
+  }
+  .dvr3-image img {
+    min-height: 180px;
+    height: auto;
+  }
+  .dvr3-text {
+    text-align: center;
+    height: auto;
+    min-height: unset;
+    padding: 12px 2vw;
+  }
+  .dvr3-heading {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  .dvr3-list li {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+  }
 }
 
-.dvr3-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+@media (max-width: 600px) {
+  .dvr3-section {
+    padding: 8px 0;
+  }
+  .dvr3-container {
+    margin-bottom: 14px;
+    border-radius: 6px;
+  }
+  .dvr3-image, .dvr3-text {
+    padding: 6px 1vw;
+  }
+  .dvr3-text {
+    max-width: 100vw;
+    padding: 6px 1vw;
+  }
+  .dvr3-image img {
+    min-height: 100px;
+    border-radius: 4px;
+  }
+  .dvr3-heading {
+    font-size: 0.92rem;
+    margin-bottom: 4px;
+  }
+  .dvr3-list li {
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+  }
 }

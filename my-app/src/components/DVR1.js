@@ -10,11 +10,11 @@ function Service1() {
       }}
     >
       <div className="security-banner-content">
-        <h2>DVR (Digital Video Recorder)</h2>
-        <p>
+        <h1>DVR (Digital Video Recorder)</h1>
+        <h5>
           Full HD 1080P Digital Video Recording System and Access Your System
           From Any Internet Connected Device 24/7
-        </p>
+        </h5>
       </div>
     </div>
   );

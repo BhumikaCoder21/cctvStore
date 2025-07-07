@@ -1,5 +1,8 @@
 import React from "react";
-import "./Services1.css";
+import "./ContactHead.css";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function Service1() {
   return (
@@ -12,14 +15,32 @@ function Service1() {
       <div className="security-banner-content">
         <h2>Contact Us</h2>
         <p>
-          If you have any questions, need assistance choosing the right security
-          system, or would like to schedule an installation, feel free to get in
-          touch with us. Our team is always ready to provide expert guidance,
-          personalized recommendations, and reliable support. Whether it's a
-          query about product features, pricing, or service availability, we're
-          just a call or message away. Reach out today and let us help you
-          secure your home or business with confidence.
+          Need help choosing a security system or want to book an installation?{" "}
+          <br />
+          We're just a message, call, or email away!
         </p>
+
+        <div className="contact-row">
+          <a href="tel:9973431660" className="contact-item phone">
+            <FaPhoneAlt className="icon" />
+            <span>9973431660</span>
+          </a>
+
+          <a
+            href="https://wa.me/919973431660"
+            className="contact-item whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp className="icon" />
+            <span>9973431660</span>
+          </a>
+
+          <a href="mailto:darpancctv@gmail.com" className="contact-item email">
+            <MdEmail className="icon" />
+            <span>darpancctv@gmail.com</span>
+          </a>
+        </div>
       </div>
     </div>
   );

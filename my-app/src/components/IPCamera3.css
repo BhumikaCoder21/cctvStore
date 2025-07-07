@@ -1,80 +1,40 @@
 .ipcamera-section {
-    padding: 3rem 1rem;
-    background-color: #fff;
-    text-align: center;
-  }
-  
-  .ipcamera-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    color: #333;
-  }
-  
-  .ipcamera-heading .green {
-    color: #2e7d32;
-  }
-  
-  .ipcamera-description {
-    font-size: 1.15rem;
-    color: #444;
-    max-width: 1200px;
-    margin: 0 auto 2.5rem auto;
-    padding: 0 2rem;
-    line-height: 2.1;
-    text-align: center;
-  }
-  
-  .ipcamera-image-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 0;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .ipcamera-image {
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    max-height: 420px;
-    object-fit: contain;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
-    display: block;
-    margin: 0 auto;
-  }
-  
-  @media (max-width: 900px) {
-    .ipcamera-description {
-      max-width: 98vw;
-      padding: 0 1rem;
-      font-size: 1rem;
-    }
-    .ipcamera-image-wrapper {
-      max-width: 98vw;
-    }
-    .ipcamera-image {
-      max-width: 98vw;
-      max-height: 260px;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .ipcamera-description {
-      max-width: 100vw;
-      padding: 0 0.5rem;
-      font-size: 0.98rem;
-    }
-    .ipcamera-image-wrapper {
-      max-width: 100vw;
-    }
-    .ipcamera-image {
-      max-width: 100vw;
-      max-height: 140px;
-      border-radius: 8px;
-    }
-  }
+  padding: 3rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.ipcamera-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ipcamera-description {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 1000px;
+  margin: 0 auto 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.9;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.ipcamera-image-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ipcamera-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}

@@ -31,27 +31,114 @@
   }
   
   .dvr-card {
-    background: white;
-    padding: 20px;
+    background: #e7f4f8;
     border-radius: 12px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
     width: 250px;
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
   }
   
-  .dvr-card h4 {
-    text-align: center;
-    margin: 10px 0;
-  }
-  
-  .dvr-card ul {
-    padding-left: 15px;
-    list-style: disc;
+  .dvr-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
   }
   
   .dvr-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
     display: block;
     margin: 0 auto 10px auto;
-    height: 100px;
-    object-fit: contain;
+    background: #a9cbe3;
+  }
+  
+  .dvr-card h4 {
+    font-size: 16px;
+    color: #333;
+    margin: 12px 0;
+    min-height: 48px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .dvr-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .dvr-card li {
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid black;
+    padding: 6px 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .dvr-card li:first-child {
+    border-top: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .dvr-cards-container {
+      padding: 40px 20px;
+    }
+    .dvr-card {
+      padding: 15px;
+    }
+    .dvr-image {
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .dvr-cards-container {
+      padding: 24px 8px;
+    }
+    .dvr-card {
+      padding: 10px;
+    }
+    .dvr-image {
+      height: 80px;
+      min-height: 60px;
+    }
+    .dvr-card h4 {
+      font-size: 1rem;
+      min-height: 32px;
+    }
+    .dvr-card li {
+      font-size: 0.95rem;
+      padding: 4px 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .dvr-cards-container {
+      padding: 8px 2px;
+    }
+    .dvr-card {
+      padding: 4px;
+      border-radius: 6px;
+    }
+    .dvr-image {
+      height: auto;
+      min-height: 40px;
+      max-height: 120px;
+      border-radius: 4px;
+      object-fit: contain;
+      background: #a9cbe3;
+    }
+    .dvr-card h4 {
+      font-size: 0.85rem;
+      min-height: 20px;
+    }
+    .dvr-card li {
+      font-size: 0.85rem;
+      padding: 2px 0;
+    }
   }

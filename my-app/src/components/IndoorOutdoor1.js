@@ -10,11 +10,11 @@ function Service1() {
       }}
     >
       <div className="security-banner-content">
-        <h2>DARPAN CCTV CAMERA</h2>
-        <p>
+        <h1>DARPAN CCTV CAMERA</h1>
+        <h5>
           Reliable CCTV Camera & Security System Installations at the Best
           Prices
-        </p>
+        </h5>
       </div>
     </div>
   );

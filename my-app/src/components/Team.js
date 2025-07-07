@@ -1,6 +1,6 @@
 import React from "react";
 import "./Team.css";
-import { FaPhone, FaWhatsapp, FaFacebookF } from "react-icons/fa";
+import { FaPhone, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 function Team() {
   return (
@@ -39,12 +39,12 @@ function Team() {
                 <span>WhatsApp</span>
               </a>
               <a
-                href="https://facebook.com/your.fb.id"
+                href="mailto:dipendra@darpancctv.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebookF className="icon facebook" />
-                <span>Facebook</span>
+                <FaEnvelope className="icon email" style={{ color: "#e67e22" }} />
+                <span>Email</span>
               </a>
             </div>
           </div>
@@ -77,12 +77,12 @@ function Team() {
                 <span>WhatsApp</span>
               </a>
               <a
-                href="https://facebook.com/ajay.secure.page"
+                href="mailto:ajay@darpancctv.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebookF className="icon facebook" />
-                <span>Facebook</span>
+                <FaEnvelope className="icon email" style={{ color: "#e67e22" }} />
+                <span>Email</span>
               </a>
             </div>
           </div>
