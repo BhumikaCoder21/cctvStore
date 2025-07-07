@@ -83,13 +83,13 @@
 
 .contact-info p:nth-child(1) svg {
   color: #ff9800;
-} /* Email: blue (ContactHead style) */
+} 
 .contact-info p:nth-child(2) svg {
   color: #00bcd4;
-} /* Phone: teal (ContactHead style) */
+} 
 .contact-info p:nth-child(3) svg {
   color: #25d366;
-} /* WhatsApp: WhatsApp green */
+} 
 
 .footer-bottom {
   text-align: center;
