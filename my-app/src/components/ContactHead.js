@@ -41,7 +41,7 @@ function Service1() {
             className="contact-item email"
           >
             <MdEmail className="icon" />
-            <span style={{ color: "#fff" }}>darpancctv@gmail.com</span>
+            <span style={{ color: "#fff" }}>rtpscounter12@gmail.com</span>
           </a>
         </div>
       </div>
