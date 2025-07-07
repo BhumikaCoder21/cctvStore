@@ -23,7 +23,7 @@ function Service1() {
         <div className="contact-row">
           <a href="tel:9973431660" className="contact-item phone">
             <FaPhoneAlt className="icon" />
-            <span style={{ color: '#fff' }}>9973431660</span>
+            <span style={{ color: "#fff" }}>9973431660</span>
           </a>
 
           <a
@@ -33,12 +33,15 @@ function Service1() {
             rel="noopener noreferrer"
           >
             <FaWhatsapp className="icon" />
-            <span style={{ color: '#fff' }}>9973431660</span>
+            <span style={{ color: "#fff" }}>9973431660</span>
           </a>
 
-          <a href="mailto:darpancctv@gmail.com" className="contact-item email">
+          <a
+            href="mailto:rtpscounter12@gmail.com"
+            className="contact-item email"
+          >
             <MdEmail className="icon" />
-            <span style={{ color: '#fff' }}>darpancctv@gmail.com</span>
+            <span style={{ color: "#fff" }}>darpancctv@gmail.com</span>
           </a>
         </div>
       </div>

@@ -31,7 +31,7 @@ function Team() {
                 <span>Phone</span>
               </a>
               <a
-                href="https://wa.me/9199734 31660"
+                href="https://wa.me/919973431660"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -39,7 +39,7 @@ function Team() {
                 <span>WhatsApp</span>
               </a>
               <a
-                href="mailto:dipendra@darpancctv.com"
+                href="mailto:rtpscounter12@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -64,7 +64,7 @@ function Team() {
             </p>
             <div className="social-details">
               <a
-                href="tel:+9199734 31660"
+                href="tel:+919973431660"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -80,7 +80,7 @@ function Team() {
                 <span>WhatsApp</span>
               </a>
               <a
-                href="mailto:ajay@darpancctv.com"
+                href="mailto:rtpscounter12@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

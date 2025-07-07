@@ -19,7 +19,7 @@ const Hero = () => {
           commercial properties. <strong>Our expert team</strong> ensures
           seamless <strong>installation and maintenance</strong>, giving you
           unparalleled security and peace of mind. Contact us today to learn
-          more about our services and how we can help protect what matters most to you.
+          more about our services and how we can help protect what matters the most to you.
          </p>
       </div>
     </div>

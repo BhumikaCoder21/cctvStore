@@ -106,7 +106,7 @@ function Footer() {
           </ul>
           <div className="contact-info">
             <p>
-              <FaEnvelope /> support@micronetgroup.co.in
+              <FaEnvelope /> rtpscounter12@gmail.com
             </p>
             <p>
               <FaPhoneAlt /> +91 9973431660
