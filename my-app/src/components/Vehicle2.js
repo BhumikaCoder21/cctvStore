@@ -4,7 +4,7 @@ import "./Vehicle2.css";
 function Vehicle2() {
   return (
     <div className="ptz-section" id="ptz">
-      <h2 className="ptz-heading">
+      <h2 className="ptz-heading" style={{ color: "#2e7d32" }}>
         <span className="green">Vehicle License Plate Reader CCTV Camera</span>
       </h2>
       <p className="ptz-subheading">
@@ -25,8 +25,9 @@ function Vehicle2() {
             solutions for Vehicle License Plate Reader (LPR) Cameras. These
             cameras are ideal for monitoring slow-moving vehicles at the entry
             and exit points of housing societies, commercial buildings, and
-            parking lots. <br/>Our LPR cameras are equipped with advanced IR LEDs to
-            capture license plates even in pitch-dark conditions, and feature
+            parking lots. <br />
+            Our LPR cameras are equipped with advanced IR LEDs to capture
+            license plates even in pitch-dark conditions, and feature
             high-resolution sensors (700 TVL) along with BLC, OSD, AWC, HLC, and
             AGC technologies. Designing a surveillance system for license plate
             recognition requires more technical precision than a typical

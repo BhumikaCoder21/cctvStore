@@ -5,7 +5,7 @@ function Bio2() {
   return (
     <div>
       <div className="ptz-section" id="ptz">
-        <h2 className="ptz-heading">
+        <h2 className="ptz-heading" style={{ color: "#2e7d32" }}>
           {" "}
           Biometric Attendance Machine Installation
         </h2>

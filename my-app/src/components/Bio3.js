@@ -5,7 +5,7 @@ import "./Bio3.css";
 function Bio3() {
   return (
     <div className="bio-section">
-      <h2 className="bio-heading">
+      <h2 className="bio-heading" style={{ color: '#2e7d32' }}>
         BENEFITS OF BIOMETRIC ATTENDANCE
         MACHINE
       </h2>

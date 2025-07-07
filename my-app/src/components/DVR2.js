@@ -59,7 +59,7 @@ const dvrData = [
 function DVR2() {
   return (
     <div className="dvr-section">
-      <h2 className="dvr-heading">
+      <h2 className="dvr-heading" style={{ color: "#2e7d32" }}>
         Latest Full HD DVR for Best Image and Video Quality
       </h2>
       <h3 className="dvr-subheading">

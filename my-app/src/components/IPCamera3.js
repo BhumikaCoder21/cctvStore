@@ -4,7 +4,9 @@ import "./Wireless3.css";
 function IPCamera3() {
   return (
     <div className="ipcamera-section" id="ip-camera">
-      <h2 className="ipcamera-heading">WIFI IP CAMERA</h2>
+      <h2 className="ipcamera-heading" style={{ color: "#2e7d32" }}>
+        WIFI IP CAMERA
+      </h2>
       <p className="ipcamera-description">
         We offer both Wired and WiFi IP Cameras to suit various installation
         environments and user preferences. WiFi IP Cameras connect seamlessly to

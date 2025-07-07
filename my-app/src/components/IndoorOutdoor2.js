@@ -124,7 +124,10 @@ function IndoorOutdoor2() {
       {/* Indoor Section */}
       <section>
         <h2>
-          <span className="highlight">INDOOR DOME COLOR</span> HD CCTV CAMERA
+          <span className="highlight" style={{ color: "#2e7d32" }}>
+            INDOOR DOME COLOR HD CCTV CAMERA
+          </span>{" "}
+         
         </h2>
         <div className="camera-grid">
           {indoorCameras.map((camera) => (
@@ -144,8 +147,10 @@ function IndoorOutdoor2() {
       {/* Outdoor Section */}
       <section>
         <h2>
-          <span className="highlight">OUTDOOR BULLET NIGHT</span> VISION HD CCTV
-          CAMERA
+          <span className="highlight" style={{ color: "#2e7d32" }}>
+            OUTDOOR BULLET NIGHT VISION HD CCTV CAMERA
+          </span>{" "}
+         
         </h2>
         <div className="camera-grid">
           {outdoorCameras.map((camera) => (

@@ -5,7 +5,7 @@ function NVR2() {
   return (
     <>
       <div className="ptz-section" id="ptz">
-        <h2 className="ptz-heading">
+        <h2 className="ptz-heading" style={{ color: '#2e7d32' }}>
          NVR (Network Video Recorder)
         </h2>
         <p className="ptz-subheading">
@@ -43,7 +43,7 @@ function NVR2() {
 
       {/* Duplicated section with changed content */}
       <div className="ptz-section" id="ptz-duplicate">
-        <h2 className="ptz-heading">
+        <h2 className="ptz-heading" style={{ color: '#2e7d32' }}>
           NVR (Network Video Recorder) Features
         </h2>
         <div className="ptz-content">

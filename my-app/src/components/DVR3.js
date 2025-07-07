@@ -7,7 +7,7 @@ function DVR3() {
       <div className="dvr3-container">
         {/* Left side: Text */}
         <div className="dvr3-text">
-          <h2 className="dvr3-heading">
+          <h2 className="dvr3-heading" style={{ color: "#2e7d32" }}>
             DVR <span>(Digital Video Recorder)</span> Features & Benefits
           </h2>
           <h3 className="dvr3-subheading">DVR System Features</h3>

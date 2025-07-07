@@ -4,7 +4,7 @@ import "./PTZ2.css";
 function PTZ2() {
   return (
     <div className="ptz-section" id="ptz">
-      <h2 className="ptz-heading">
+      <h2 className="ptz-heading" style={{ color: '#2e7d32' }}>
         PTZ CCTV CAMERA INSTALLATIONS DELHI
       </h2>
       <p className="ptz-subheading">

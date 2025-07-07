@@ -4,7 +4,7 @@ import "./Night2.css";
 function Night2() {
   return (
     <div className="ipcamera-section" id="ip-camera">
-      <h2 className="ipcamera-heading">
+      <h2 className="ipcamera-heading" style={{ color: "#2e7d32" }}>
         <span className="green">Long Range Security CCTV Camera</span>
       </h2>
       <p className="ipcamera-description">

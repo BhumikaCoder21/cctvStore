@@ -4,7 +4,9 @@ import "./IPCamera2.css";
 function IPCamera2() {
   return (
     <div className="ptz-section" id="ptz">
-      <h2 className="ptz-heading">IP CCTV Camera</h2>
+      <h2 className="ptz-heading" style={{ color: "#2e7d32" }}>
+        IP CCTV Camera
+      </h2>
       <p className="ptz-subheading">
         We offer our customers latest premium quality IP CCTV Cameras at Best
         Price.
