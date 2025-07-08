@@ -18,8 +18,8 @@
 }
 
 .security-banner-content h2 {
-  font-size: 3.0rem;
-  font-weight: 1800;
+  font-size: clamp(1.3rem, 4vw, 3rem);
+  font-weight: 900;
   margin-bottom: 40px; /* Increased space below h1 */
   font-family: "Montserrat", sans-serif;
   color: #fff;
@@ -28,10 +28,20 @@
 }
 
 .security-banner-content h5 {
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 700;
   margin-bottom: 25px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 1500; /* Increased font weight (5x of 400) */
   color: #5e9fee; /* Dark blue */
 }
 
+@media (max-width: 600px) {
+  .security-banner-content h2 {
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+  .security-banner-content h5 {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+}

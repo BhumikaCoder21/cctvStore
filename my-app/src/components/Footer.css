@@ -23,8 +23,8 @@
 .footer-column h3 {
   color: #fff;
   margin-bottom: 15px;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
+  font-weight: 700;
   text-align: left;
   font-family: "Arial", sans-serif;
 }
@@ -53,7 +53,8 @@
 .footer-column a {
   text-decoration: none;
   color: #ccc;
-  font-size: 14px;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  font-weight: 400;
   display: inline-block;
   width: 100%;
   text-align: left;
@@ -83,13 +84,13 @@
 
 .contact-info p:nth-child(1) svg {
   color: #ff9800;
-} 
+}
 .contact-info p:nth-child(2) svg {
   color: #00bcd4;
-} 
+}
 .contact-info p:nth-child(3) svg {
   color: #25d366;
-} 
+}
 
 .footer-bottom {
   text-align: center;
@@ -129,6 +130,18 @@
     margin-top: 18px;
     padding-top: 10px;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-column h3 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .footer-column a,
+  .footer-column li {
+    font-size: 0.85rem;
+    font-weight: 400;
   }
 }
 

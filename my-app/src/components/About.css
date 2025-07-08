@@ -40,8 +40,8 @@
   padding: 0;
 }
 .about-content h2 {
-  font-size: 2.6rem;
-  font-weight: 900;
+  font-size: clamp(1.3rem, 4vw, 2.6rem);
+  font-weight: 800;
   color: #222;
   margin-bottom: 18px;
   margin-top: 0;
@@ -50,6 +50,8 @@
   letter-spacing: 0.5px;
 }
 .about-content p {
+  font-size: clamp(0.95rem, 2.2vw, 1.1rem);
+  font-weight: 400;
   text-align: justify;
   margin-top: 0px;
   margin-bottom: 22px;
@@ -162,9 +164,12 @@
   }
   .about-content h2 {
     font-size: 1.2rem;
+    font-weight: 700;
     margin-bottom: 8px;
   }
   .about-content p {
+    font-size: 0.95rem;
+    font-weight: 400;
     margin-bottom: 8px;
   }
   .about-stats {

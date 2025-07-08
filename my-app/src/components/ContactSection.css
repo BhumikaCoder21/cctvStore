@@ -15,15 +15,15 @@
 
 .assistance-header h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-size: clamp(1.2rem, 4vw, 2.2rem);
+  font-weight: 800;
   color: #1a1a1a;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .assistance-header p {
-  font-size: 1rem;
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
   font-weight: 400;
   color: #444;
   max-width: 600px;
@@ -40,9 +40,10 @@
 .contact-item {
   display: flex;
   align-items: center;
-  font-size: 7.5rem;
+  font-size: clamp(1rem, 3vw, 1.5rem);
   color: #222;
   gap: 14px;
+  font-weight: 600;
 }
 
 .contact-item .icon {
@@ -128,11 +129,13 @@
     border-radius: 8px;
   }
   .assistance-header h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
     margin-bottom: 6px;
   }
   .assistance-header p {
-    font-size: 0.98rem;
+    font-size: 0.95rem;
+    font-weight: 400;
     max-width: 100%;
   }
   .contact-info {
@@ -140,7 +143,8 @@
     margin-top: 6px;
   }
   .contact-item {
-    font-size: 0.98rem;
+    font-size: 1rem;
+    font-weight: 600;
     gap: 7px;
   }
   .contact-item .icon {
