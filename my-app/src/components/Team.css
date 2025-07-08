@@ -151,7 +151,7 @@
 
 @media (max-width: 600px) {
   .team {
-    padding: 16px 2px;
+    padding: 16px 12px;
   }
   .team h2 {
     font-size: 1.1rem;
@@ -166,7 +166,7 @@
   .team-container {
     flex-direction: column;
     gap: 8px;
-    padding: 0 2px;
+    padding: 0 12px;
   }
   .team-member {
     padding: 8px;

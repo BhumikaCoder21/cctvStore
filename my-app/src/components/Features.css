@@ -185,21 +185,27 @@
   .features {
     padding: 12px 2px;
   }
+
   .features-grid {
     grid-template-columns: 1fr;
     gap: 14px 0;
   }
+
   .feature-card {
     height: 360px;
     min-height: 180px;
+    margin: 0 12px; /* ✅ Ensures 10px margin left and right */
   }
+
   .feature-content {
-    padding: 7px 7px 16px 7px; /* Extra bottom padding for mobile */
+    padding: 7px 7px 16px 7px;
     font-size: 0.95em;
   }
+
   .feature-content h3 {
     font-size: 1em;
   }
+
   .feature-content p {
     font-size: 0.85em;
   }

@@ -122,6 +122,7 @@
   }
   .footer {
     padding: 24px 6px 10px;
+    
   }
   .footer-column {
     margin-bottom: 18px;
@@ -134,42 +135,59 @@
 }
 
 @media (max-width: 600px) {
+  .footer {
+    padding: 10px 12px 6px; /* ✅ 12px left/right margin */
+  }
+
+  .footer-content {
+    padding: 0 12px; /* ✅ 12px internal spacing */
+    box-sizing: border-box;
+  }
+
+  .footer-column {
+    margin-left: 0; /* ✅ Remove offset */
+  }
+
   .footer-column h3 {
     font-size: 1rem;
     font-weight: 500;
   }
+
   .footer-column a,
   .footer-column li {
     font-size: 0.85rem;
     font-weight: 400;
-  }
-  .footer-column {
-    margin-left: 15px;
   }
 }
 
 @media (max-width: 500px) {
   .footer-content {
     gap: 8px 0;
+    padding: 0 12px; /* ✅ Maintain 12px spacing */
   }
+
   .footer {
-    padding: 10px 2px 6px;
+    padding: 10px 12px 6px; /* ✅ Consistent left/right padding */
   }
+
   .footer-column h3 {
     font-size: 1rem;
     margin-bottom: 8px;
   }
+
   .footer-column a,
   .footer-column li,
   .contact-info p {
     font-size: 0.95rem;
   }
+
   .footer-bottom {
     font-size: 11px;
     margin-top: 10px;
     padding-top: 6px;
   }
+
   .footer-column {
-    margin-left: 6px;
+    margin-left: 0; /* ✅ Keep clean alignment */
   }
 }

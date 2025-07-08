@@ -1,36 +1,64 @@
 .brands-section {
-    padding: 40px 20px;
-    background-color: white;
-    text-align: center;
+  padding: 40px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.brands-heading h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.brands-heading .highlight {
+  color: #2f855a; /* green */
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background-color: #2f855a;
+  margin: 8px auto 0 auto;
+  border-radius: 2px;
+}
+
+.brands-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0 12px; /* ✅ Add horizontal padding for small screens */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.brands-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Responsive styles for small screens */
+@media (max-width: 600px) {
+  .brands-section {
+    padding: 24px 12px; /* 12px left/right padding */
   }
-  
+
   .brands-heading h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0;
+    font-size: 1.4rem;
   }
-  
-  .brands-heading .highlight {
-    color: #2f855a; /* green */
-  }
-  
+
   .underline {
-    width: 80px;
-    height: 4px;
-    background-color: #2f855a;
-    margin: 8px auto 0 auto;
-    border-radius: 2px;
+    width: 60px;
+    height: 3px;
   }
-  
+
   .brands-image-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    padding: 0 12px;
   }
-  
+
   .brands-image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    border-radius: 6px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
+}

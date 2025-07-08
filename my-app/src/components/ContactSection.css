@@ -124,36 +124,48 @@
     gap: 10px;
     padding: 0 2px;
   }
+
   .assistance-box {
-    padding: 12px 4px;
+    padding: 12px;
+    margin: 0 12px; /* ✅ 12px margin from left and right */
     border-radius: 8px;
   }
+
   .assistance-header h1 {
     font-size: 1.1rem;
     font-weight: 700;
     margin-bottom: 6px;
   }
+
   .assistance-header p {
     font-size: 0.95rem;
     font-weight: 400;
     max-width: 100%;
   }
+
   .contact-info {
     gap: 7px;
     margin-top: 6px;
   }
+
   .contact-item {
     font-size: 1rem;
     font-weight: 600;
     gap: 7px;
   }
+
   .contact-item .icon {
     font-size: 1.1rem;
   }
+
   .contact-map {
     min-height: 120px;
     margin-right: 0;
+    margin: 0 12px;
+   width: calc(100% - 24px); /* Ensures margin is respected visually */
+   box-sizing: border-box;
   }
+
   .contact-map iframe {
     border-radius: 6px;
   }
