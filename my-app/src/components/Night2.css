@@ -71,4 +71,7 @@
       height: 180px;
       min-width: 0;
     }
+    .ipcamera-description{
+      text-align: justify;
+    }
   }

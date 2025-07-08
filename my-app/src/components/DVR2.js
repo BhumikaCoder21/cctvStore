@@ -64,7 +64,7 @@ function DVR2() {
       </h2>
       <h3 className="dvr-subheading">
         We came to realize that the largest threat came internally from our
-        employees rather than the customers.
+        employees rather than the customers.<br/>
       </h3>
       <p className="dvr-description">
         We have progressed with CCTV Services from our original system using a

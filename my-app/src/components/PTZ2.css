@@ -68,8 +68,12 @@
       height: auto;
     }
     .ptz-text {
-      text-align: center;
+      text-align: justify;
       height: auto;
       min-height: unset;
+    }
+    .ptz-text p {
+      text-align: justify;
+      
     }
   }

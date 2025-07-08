@@ -141,4 +141,10 @@
       font-size: 0.85rem;
       padding: 2px 0;
     }
+    .dvr-description{
+     text-align: justify;
+    }
+    .dvr-subheading{
+      text-align: center;
+    }
   }

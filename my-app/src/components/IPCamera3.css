@@ -5,8 +5,8 @@
 }
 
 .ipcamera-heading {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: clamp(1.5rem, 5vw, 2.5rem); /* Responsive font */
+  font-weight: 700;
   margin-bottom: 1rem;
   text-transform: uppercase;
   color: #222;
@@ -14,7 +14,8 @@
 }
 
 .ipcamera-description {
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 2.5vw, 1.15rem); /* Responsive font */
+  font-weight: 400;
   color: #444;
   max-width: 1000px;
   margin: 0 auto 2rem auto;
@@ -28,6 +29,8 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .ipcamera-image {
@@ -37,5 +40,36 @@
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  max-height: 400px; /* Prevent cropping, maintain aspect ratio */
+  max-height: 400px;
+}
+
+/* ✅ Responsive styles */
+@media (max-width: 768px) {
+  .ipcamera-description {
+    text-align: justify;
+    line-height: 1.7;
+    padding: 0 12px;
+  }
+
+  .ipcamera-heading {
+    font-weight: 600;
+  }
+
+  .ipcamera-image-wrapper {
+    padding: 0 12px;
+  }
+
+  .ipcamera-section {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ipcamera-description {
+    font-size: 0.95rem;
+  }
+
+  .ipcamera-heading {
+    font-size: 1.4rem;
+  }
 }

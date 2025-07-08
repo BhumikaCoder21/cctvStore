@@ -87,23 +87,19 @@ body {
     padding: 0;
   }
 
+  /* Ensure text comes first and image second on small screens */
+  .left-image .service-content,
+  .right-image .service-content {
+    order: 0;
+  }
+
+  .left-image .service-image,
+  .right-image .service-image {
+    order: 1;
+  }
+
   .service-content {
-    text-align: center;
+    text-align: justify;
     padding: 1rem 0;
   }
-}
-.service-points {
-  margin-top: 1rem;
-  padding-left: 1.2rem;
-  
-}
-.service-points li {
-  position: relative;
-  padding-left: 1.2rem;
-  margin-bottom: 0.5rem;
-  font-size: 16px;
-  color: #444;
-  line-height: 1.7;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
 }

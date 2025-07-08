@@ -141,4 +141,7 @@
   .ptz3-card {
     min-height: 100px;
   }
+  .ptz3-card-content p {
+    text-align: justify;
+  }
 }
