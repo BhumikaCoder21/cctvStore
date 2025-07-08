@@ -119,7 +119,10 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025@darpancctv.com All Rights Reserved.</p>
+        <p>
+          Copyright © 2025 All rights reserved By DarpanCCTV. | Developed &
+          maintained by Prakash.AI Pvt. Ltd.
+        </p>
       </div>
     </footer>
   );
