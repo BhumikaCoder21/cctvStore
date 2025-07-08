@@ -120,6 +120,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 18px 0;
+    min-height: 70px;
   }
   .navbar h1 {
     margin-left: 10px;
@@ -150,6 +152,7 @@
     transition: left 0.3s ease;
     z-index: 2000;
     order: 2;
+    top: 70px;
   }
   .navbar-links.open {
     left: 0;
@@ -222,7 +225,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 6px 0;
+    padding: 20px 0;
+    min-height: 70px;
   }
   .navbar h1 {
     margin-left: 10px;
@@ -243,6 +247,7 @@
     padding-top: 24px;
     padding-left: 4vw;
     padding-right: 4vw;
+    top: 70px;
   }
   .navbar-links li {
     width: 92vw;
