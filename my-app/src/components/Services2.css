@@ -65,10 +65,17 @@ body {
 }
 
 .service-content h3 {
-  font-size: 24px;
+  
   font-weight: 700;
   margin-bottom: 15px;
   font-family: 'Montserrat', sans-serif;
+  
+    font-size: clamp(1.2rem, 4.5vw, 1.5rem);
+    line-height: 1.4;
+    word-break: keep-word;
+    overflow-wrap: break-word;
+  
+  
 }
 
 .service-content p {
@@ -86,8 +93,6 @@ body {
     align-items: center;
     padding: 0;
   }
-
-  /* Ensure text comes first and image second on small screens */
   .left-image .service-content,
   .right-image .service-content {
     order: 0;
@@ -103,3 +108,19 @@ body {
     padding: 1rem 0;
   }
 }
+@media (max-width: 480px) {
+  .service-content {
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  .service-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .service-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
