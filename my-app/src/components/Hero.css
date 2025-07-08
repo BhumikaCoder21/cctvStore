@@ -2,7 +2,10 @@
   background-image: url("https://www.securitastechnology.com/sites/securitastechnology.com/files/media/2022-01/Modern%20CCTV%20camera%20on%20a%20wall.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   height: 85vh;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -78,7 +81,10 @@
   }
   .hero-container {
     height: 60vh;
+    min-height: 220px;
     padding: 40px 10px;
+    background-size: contain;
+    background-position: top center;
   }
 }
 
@@ -95,7 +101,10 @@
     border-radius: 8px;
   }
   .hero-container {
-    min-height: 60vh;
+    min-height: 180px;
+    height: auto;
     padding: 18px 4px 40px 4px;
+    background-size: cover;
+    background-position: center;
   }
 }
