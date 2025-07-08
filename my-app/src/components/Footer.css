@@ -143,6 +143,9 @@
     font-size: 0.85rem;
     font-weight: 400;
   }
+  .footer-column {
+    margin-left: 15px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -165,5 +168,8 @@
     font-size: 11px;
     margin-top: 10px;
     padding-top: 6px;
+  }
+  .footer-column {
+    margin-left: 6px;
   }
 }
