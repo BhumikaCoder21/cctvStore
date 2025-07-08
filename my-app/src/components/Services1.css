@@ -19,7 +19,7 @@
 
 .security-banner-content h2 {
   font-size: clamp(1.3rem, 4vw, 3rem);
-  font-weight: 900;
+  font-weight: 600;
   margin-bottom: 40px; /* Increased space below h1 */
   font-family: "Montserrat", sans-serif;
   color: #fff;
@@ -29,7 +29,7 @@
 
 .security-banner-content h5 {
   font-size: clamp(1rem, 2.5vw, 1.5rem);
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 25px;
   font-family: "Montserrat", sans-serif;
   color: #5e9fee; /* Dark blue */
@@ -38,10 +38,10 @@
 @media (max-width: 600px) {
   .security-banner-content h2 {
     font-size: 1.1rem;
-    font-weight: 800;
+    font-weight: 500;
   }
   .security-banner-content h5 {
     font-size: 0.95rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 }

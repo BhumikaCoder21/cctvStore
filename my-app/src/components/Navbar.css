@@ -14,7 +14,7 @@
 
 .navbar h1 {
   font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  font-weight: 800;
+  font-weight: 600;
   margin: 0;
   margin-left: 30px;
   margin-right: auto;
@@ -61,7 +61,7 @@
   padding: 10px 0;
   display: inline-block;
   font-size: clamp(0.95rem, 2vw, 1.1rem);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .navbar-links li a:hover,
@@ -227,7 +227,7 @@
   .navbar h1 {
     margin-left: 10px;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     margin-right: auto;
     order: 1;
   }
