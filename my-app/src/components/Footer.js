@@ -106,7 +106,7 @@ function Footer() {
           </ul>
           <div className="contact-info">
             <p>
-              <FaEnvelope /> rtpscounter12@gmail.com
+              <FaEnvelope /> dip9973431660@gmail.com
             </p>
             <p>
               <FaPhoneAlt /> +91 9973431660

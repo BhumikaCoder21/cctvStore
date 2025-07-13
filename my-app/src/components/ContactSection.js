@@ -29,7 +29,7 @@ function ContactSection() {
           </div>
           <div className="contact-item">
             <FaEnvelope className="icon email" />
-            <span>info@darpancctv.com</span>
+            <span>dip9973431660@gmail.com</span>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ function PTZ2() {
   return (
     <div className="ptz-section" id="ptz">
       <h2 className="ptz-heading" style={{ color: '#2e7d32' }}>
-        PTZ CCTV CAMERA INSTALLATIONS DELHI
+        PTZ CCTV CAMERA INSTALLATIONS SITAMARHI
       </h2>
       <p className="ptz-subheading">
         We offer our customers latest premium quality PTZ CCTV Cameras at Best

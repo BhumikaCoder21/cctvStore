@@ -39,7 +39,7 @@ function Team() {
                 <span>WhatsApp</span>
               </a>
               <a
-                href="mailto:rtpscounter12@gmail.com"
+                href="mailto:dip9973431660@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -80,7 +80,7 @@ function Team() {
                 <span>WhatsApp</span>
               </a>
               <a
-                href="mailto:rtpscounter12@gmail.com"
+                href="mailto:dip9973431660@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

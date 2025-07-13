@@ -37,11 +37,11 @@ function Service1() {
           </a>
 
           <a
-            href="mailto:rtpscounter12@gmail.com"
+            href="mailto:dip9973431660@gmail.com"
             className="contact-item email"
           >
             <MdEmail className="icon" />
-            <span style={{ color: "#fff" }}>rtpscounter12@gmail.com</span>
+            <span style={{ color: "#fff" }}>dip9973431660@gmail.com</span>
           </a>
         </div>
       </div>
