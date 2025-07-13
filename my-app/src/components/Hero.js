@@ -1,14 +1,12 @@
 import React from "react";
 import "./Hero.css";
-
-const backgroundImageUrl =
-  "https://www.securitastechnology.com/sites/securitastechnology.com/files/media/2022-01/Modern%20CCTV%20camera%20on%20a%20wall.jpg";
+import backgroundImage from "../assets/hero1.jpg"; // adjust path if your file structure differs
 
 const Hero = () => {
   return (
     <div
       className="hero-container"
-      style={{ backgroundImage: `url(${backgroundImageUrl})` }}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <h1 className="hero-heading">
         Secure Your Property with <span>DarpanCCTV</span>
@@ -19,8 +17,9 @@ const Hero = () => {
           commercial properties. <strong>Our expert team</strong> ensures
           seamless <strong>installation and maintenance</strong>, giving you
           unparalleled security and peace of mind. Contact us today to learn
-          more about our services and how we can help protect what matters the most to you.
-         </p>
+          more about our services and how we can help protect what matters the
+          most to you.
+        </p>
       </div>
     </div>
   );
