@@ -1,6 +1,5 @@
 import React from "react";
 import "./Services2.css";
-
 import cctvImg from "../assets/s4.jpg";
 import amcImg from "../assets/s2.jpg";
 import biometricImg from "../assets/s3.jpg";

@@ -1,12 +1,13 @@
 import React from "react";
 import "./IndoorOutdoor3.css";
+import service from "../assets/service1.jpg"; // ✅ Local image file
 
 function IndoorOutdoor3() {
   return (
     <div
       className="security-banner"
       style={{
-        backgroundImage: `url("https://www.cctvcameradelhi.in/images/call-us-bg.jpg")`,
+        backgroundImage: `url(${service})`,
       }}
     >
       <div className="security-banner-content">
