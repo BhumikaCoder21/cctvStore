@@ -1,5 +1,6 @@
 import React from "react";
-import "./BrandsSection.css"; // Import the CSS file
+import "./BrandsSection.css";
+import brandsImg from "../assets/brands.jpg";
 
 const BrandsSection = () => {
   return (
@@ -11,11 +12,7 @@ const BrandsSection = () => {
         <div className="underline"></div>
       </div>
       <div className="brands-image-wrapper">
-        <img
-          src="https://www.cctvcameradelhi.in/images/we-deals-brands.jpg"
-          alt="Brands We Deal In"
-          className="brands-image"
-        />
+        <img src={brandsImg} alt="Brands We Deal In" className="brands-image" />
       </div>
     </section>
   );
