@@ -1,6 +1,12 @@
 import React from "react";
 import "./Services2.css";
 
+import cctvImg from "../assets/s4.jpg";
+import amcImg from "../assets/s2.jpg";
+import biometricImg from "../assets/s3.jpg";
+import videoDoorPhoneImg from "../assets/s1.jpg";
+import epabxImg from "../assets/s5.jpg";
+
 function Services2() {
   return (
     <div className="services-section" id="services">
@@ -13,10 +19,7 @@ function Services2() {
       {/* 1. CCTV Installation */}
       <div className="service-block left-image">
         <div className="service-image">
-          <img
-            src="https://www.cctvcameradelhi.in/images/cctv-camera-installation.jpg"
-            alt="CCTV Installation"
-          />
+          <img src={cctvImg} alt="CCTV Installation" />
         </div>
         <div className="service-content">
           <h3>Professional CCTV Camera Installation</h3>
@@ -40,10 +43,7 @@ function Services2() {
       {/* 2. CCTV AMC */}
       <div className="service-block right-image">
         <div className="service-image">
-          <img
-            src="https://www.cctvcameradelhi.in/images/cctv-camera-amc.jpg"
-            alt="CCTV AMC"
-          />
+          <img src={amcImg} alt="CCTV AMC" />
         </div>
         <div className="service-content">
           <h3>CCTV AMC (Annual Maintenance Contract) Services</h3>
@@ -66,10 +66,7 @@ function Services2() {
       {/* 3. Biometric Reader */}
       <div className="service-block left-image">
         <div className="service-image">
-          <img
-            src="https://www.cctvcameradelhi.in/images/biometric-machine.jpg"
-            alt="Biometric Reader"
-          />
+          <img src={biometricImg} alt="Biometric Reader" />
         </div>
         <div className="service-content">
           <h3>Biometric Fingerprint Reader</h3>
@@ -93,10 +90,7 @@ function Services2() {
       {/* 4. Video Door Phone */}
       <div className="service-block right-image">
         <div className="service-image">
-          <img
-            src="https://www.cctvcameradelhi.in/images/Video-Door-Phone.jpg"
-            alt="Video Door Phone"
-          />
+          <img src={videoDoorPhoneImg} alt="Video Door Phone" />
         </div>
         <div className="service-content">
           <h3>IP Intelligent Video Door Phone</h3>
@@ -118,10 +112,7 @@ function Services2() {
       {/* 5. EPABX System */}
       <div className="service-block left-image">
         <div className="service-image">
-          <img
-            src="https://www.cctvcameradelhi.in/images/EPABX-Intercom-System.jpg"
-            alt="EPABX System"
-          />
+          <img src={epabxImg} alt="EPABX System" />
         </div>
         <div className="service-content">
           <h3>EPABX System</h3>
