@@ -1,6 +1,6 @@
 import React from "react";
 import "./IndoorOutdoor3.css";
-import service from "../assets/service1.jpg"; // ✅ Local image file
+import service from "../assets/service1.jpg"; 
 
 function IndoorOutdoor3() {
   return (

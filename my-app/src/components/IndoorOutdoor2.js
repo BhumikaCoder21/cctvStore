@@ -1,11 +1,16 @@
 // components/IndoorOutdoor2.js
 import React from "react";
 import "./IndoorOutdoor2.css";
+import indoor1 from "../assets/indoor12.jpg";
+import indoor3 from "../assets/indoor34.jpg";
+import outdoor1 from "../assets/outdoor12.jpg";
+import outdoor3 from "../assets/outdoor34.jpg";
+
 
 const indoorCameras = [
   {
     id: 1,
-    image: "https://www.cctvcameradelhi.in/images/carmera-cctv.jpg",
+    image: indoor1,
     title: "Indoor Dome Color HD CCTV Camera with Nightvision",
     specs: [
       "1/3'' 1.3 Megapixel for Clear Sharp Images",
@@ -18,7 +23,7 @@ const indoorCameras = [
   },
   {
     id: 2,
-    image: "https://www.cctvcameradelhi.in/images/carmera-cctv.jpg",
+    image: indoor1,
     title: "Indoor Dome Color HD CCTV Camera with Nightvision",
     specs: [
       "1/3'' 1.3 Megapixel for Clear Sharp Images",
@@ -31,7 +36,7 @@ const indoorCameras = [
   },
   {
     id: 3,
-    image: "https://www.cctvcameradelhi.in/images/HD1080P-camera.jpg",
+    image: indoor3,
     title: "Indoor Dome Color Full HD (1080p) CCTV Camera with Nightvision",
     specs: [
       "1/3'' 2.0 Megapixel for Clear Sharp Images",
@@ -44,7 +49,7 @@ const indoorCameras = [
   },
   {
     id: 4,
-    image: "https://www.cctvcameradelhi.in/images/HD1080P-camera.jpg",
+    image: indoor3,
     title: "Indoor Dome Color Full HD (1080p) CCTV Camera with Nightvision",
     specs: [
       "1/3'' 2.0 Megapixel for Clear Sharp Images",
@@ -60,8 +65,7 @@ const indoorCameras = [
 const outdoorCameras = [
   {
     id: 1,
-    image:
-      "https://www.cctvcameradelhi.in/images/OutdoorWeatherproof-camera.jpg",
+    image:outdoor1,
     title: "Outdoor Bullet Color HD CCTV Camera with Nightvision",
     specs: [
       "1/3'' 1.3 Megapixel for Clear Sharp Images",
@@ -74,8 +78,7 @@ const outdoorCameras = [
   },
   {
     id: 2,
-    image:
-      "https://www.cctvcameradelhi.in/images/OutdoorWeatherproof-camera.jpg",
+    image:outdoor1,
     title: "Outdoor Bullet Color HD CCTV Camera with Nightvision",
     specs: [
       "1/3'' 1.3 Megapixel for Clear Sharp Images",
@@ -88,8 +91,7 @@ const outdoorCameras = [
   },
   {
     id: 3,
-    image:
-      "https://www.cctvcameradelhi.in/images/OutdoorWeatherproofBullet-camera.jpg",
+    image: outdoor3,
     title:
       "Outdoor Weatherproof Bullet Color Full HD CCTV Camera with Nightvision",
     specs: [
@@ -103,8 +105,7 @@ const outdoorCameras = [
   },
   {
     id: 4,
-    image:
-      "https://www.cctvcameradelhi.in/images/OutdoorWeatherproofBullet-camera.jpg",
+    image:outdoor3,
     title:
       "Outdoor Weatherproof Bullet Color Full HD CCTV Camera with Nightvision",
     specs: [
