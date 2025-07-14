@@ -1,10 +1,11 @@
 import React from "react";
 import "./PTZ2.css";
+import ptzImage from "../assets/ptz2.jpg";
 
 function PTZ2() {
   return (
     <div className="ptz-section" id="ptz">
-      <h2 className="ptz-heading" style={{ color: '#2e7d32' }}>
+      <h2 className="ptz-heading" style={{ color: "#2e7d32" }}>
         PTZ CCTV CAMERA INSTALLATIONS SITAMARHI
       </h2>
       <p className="ptz-subheading">
@@ -14,10 +15,7 @@ function PTZ2() {
 
       <div className="ptz-content">
         <div className="ptz-image">
-          <img
-            src="https://www.cctvcameradelhi.in/images/ptz-cctv-camera-delhi.jpg"
-            alt="PTZ CCTV Cameras"
-          />
+          <img src={ptzImage} alt="PTZ CCTV Cameras" />
         </div>
         <div className="ptz-text">
           <p>

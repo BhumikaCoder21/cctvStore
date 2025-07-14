@@ -1,5 +1,6 @@
 import React from "react";
 import "./Wireless2.css";
+import wireless from "../assets/wireless2.jpg";
 
 function Wireless2() {
   return (
@@ -15,7 +16,7 @@ function Wireless2() {
       <div className="ptz-content">
         <div className="ptz-image">
           <img
-            src="https://www.cctvcameradelhi.in/images/wireless-camera.jpg"
+            src={wireless}
             alt="Wireless Cameras"
           />
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Vehicle3.css";
+import Vehicle32 from "../assets/vehicle3.jpg";
 
 function Vehicle3() {
   return (
@@ -18,7 +19,7 @@ function Vehicle3() {
       </p>
       <div className="ipcamera-image-wrapper">
         <img
-          src="https://www.cctvcameradelhi.in/images/vehicle-number-plate-reader-camera-delhi.jpg"
+          src={Vehicle32}
           alt="WiFi IP Cameras"
           className="ipcamera-image"
         />

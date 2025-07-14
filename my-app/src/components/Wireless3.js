@@ -1,5 +1,6 @@
 import React from "react";
 import "./Wireless3.css";
+import wirelesspic from "../assets/wireless3.jpg";
 
 function Wireless3() {
   return (
@@ -20,7 +21,7 @@ function Wireless3() {
       </p>
       <div className="ipcamera-image-wrapper">
         <img
-          src="https://www.cctvcameradelhi.in/images/wireless-cctv-camera-delhi.jpg"
+          src={wirelesspic}
           alt="WiFi IP Cameras"
           className="ipcamera-image"
         />

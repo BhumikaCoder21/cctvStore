@@ -1,5 +1,7 @@
 import React from "react";
 import "./PTZ2.css";
+import nvrf from "../assets/nvr21.png";
+import nvrs from "../assets/nvr22.png";
 
 function NVR2() {
   return (
@@ -16,7 +18,7 @@ function NVR2() {
         <div className="ptz-content">
           <div className="ptz-image">
             <img
-              src="https://www.cctvcameradelhi.in/images/Network-Video-Recorder.png"
+              src={nvrf}
               alt="PTZ CCTV Cameras"
             />
           </div>
@@ -49,7 +51,7 @@ function NVR2() {
         <div className="ptz-content">
           <div className="ptz-image">
             <img
-              src="https://www.cctvcameradelhi.in/images/nvr-feature.png"
+              src={nvrs}
               alt="NVR Advanced Features"
             />
           </div>

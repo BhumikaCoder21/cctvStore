@@ -1,5 +1,6 @@
 import React from "react";
 import "./DVR3.css";
+import dvr23 from "../assets/dvr3.jpg"; 
 
 function DVR3() {
   return (
@@ -30,7 +31,7 @@ function DVR3() {
         {/* Right side: Image */}
         <div className="dvr3-image">
           <img
-            src="https://www.cctvcameradelhi.in/images/dvr-for-cctv.jpg" // Replace with your actual image URL if needed
+            src={dvr23} // Replace with your actual image URL if needed
             alt="DVR Features"
           />
         </div>

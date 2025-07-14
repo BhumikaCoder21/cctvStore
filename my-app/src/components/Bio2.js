@@ -1,5 +1,6 @@
 import React from "react";
 import "./PTZ2.css";
+import imageb from "../assets/bio2.jpg";
 
 function Bio2() {
   return (
@@ -17,7 +18,7 @@ function Bio2() {
         <div className="ptz-content">
           <div className="ptz-image">
             <img
-              src="https://www.cctvcameradelhi.in/images/Biometric-Attendance-Machine.jpg"
+              src={imageb}
               alt="PTZ CCTV Cameras"
             />
           </div>

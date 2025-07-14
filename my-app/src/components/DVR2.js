@@ -1,5 +1,6 @@
 import React from "react";
 import "./DVR2.css";
+import dvr56 from "../assets/dvr2.jpg";
 
 const dvrData = [
   {
@@ -75,7 +76,7 @@ function DVR2() {
         {dvrData.map((dvr, index) => (
           <div key={index} className="dvr-card">
             <img
-              src="https://www.cctvcameradelhi.in/images/dvr-delhi.jpg"
+              src={dvr56}
               alt={dvr.title}
               className="dvr-image"
             />

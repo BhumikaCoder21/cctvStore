@@ -1,5 +1,6 @@
 import React from "react";
 import "./Wireless3.css";
+import wifiIpCameraImg from "../assets/ip3.jpg";
 
 function IPCamera3() {
   return (
@@ -18,7 +19,7 @@ function IPCamera3() {
 
       <div className="ipcamera-image-wrapper">
         <img
-          src="https://www.cctvcameradelhi.in/images/IP-CAMERA-installation-delhi.jpg"
+          src={wifiIpCameraImg}
           alt="WiFi IP Cameras"
           className="ipcamera-image"
         />

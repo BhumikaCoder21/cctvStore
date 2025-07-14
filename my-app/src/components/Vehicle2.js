@@ -1,5 +1,6 @@
 import React from "react";
 import "./Vehicle2.css";
+import vehicle from "../assets/vehicle2.jpg";
 
 function Vehicle2() {
   return (
@@ -15,7 +16,7 @@ function Vehicle2() {
       <div className="ptz-content">
         <div className="ptz-image">
           <img
-            src="https://www.cctvcameradelhi.in/images/License-Plate-Capture-Cameras.jpg"
+            src={vehicle}
             alt="Wireless Cameras"
           />
         </div>

@@ -1,5 +1,9 @@
 import React from "react";
 import "./PTZ3.css";
+import ultraImg from "../assets/ultra.jpg";
+import proImg from "../assets/pro.jpg";
+import valueImg from "../assets/value.jpg";
+import specialImg from "../assets/special.jpg";
 
 function PTZ3() {
   const categories = [
@@ -7,28 +11,25 @@ function PTZ3() {
       title: "Ultra Series",
       description:
         "The Ultra Series Cameras are the professional’s choice for many complicated scenarios. They are equipped with superb imaging ability and backed by 50x zoom ratio and the patented DarkFighterX technology, as well as intelligent functions.",
-      image:
-        "https://www.cctvcameradelhi.in/images/Ultra-Series-ptz-camera.jpg",
+      image: ultraImg,
     },
     {
       title: "Pro Series",
       description:
         "Almost all of the Pro Series PTZ Cameras are equipped with “powered-by-DarkFighter” technology, making low-light monitoring an easy task. The Pro series has abundant options for various camera sizes and amazing zoom capability.",
-      image: "https://www.cctvcameradelhi.in/images/Pro-Series-ptz-camera.jpg",
+      image: proImg,
     },
     {
       title: "Value Series",
       description:
         "The Value Series is designed to offer a perfect balance between performance, affordability, and ease of use. These cameras feature compact and sleek designs, making them ideal for both residential and small business applications where space and aesthetics matter.",
-      image:
-        "https://www.cctvcameradelhi.in/images/Value-Series-ptz-camera.jpg",
+      image: valueImg,
     },
     {
       title: "Special Series",
       description:
         "The Special Series is engineered for advanced surveillance needs. These robust and durable cameras are strategically designed to safeguard perimeters from elevated vantage points, delivering a comprehensive overview while capturing fine details with precision.",
-      image:
-        "https://www.cctvcameradelhi.in/images/Special-Series-ptz-cctv-camera.jpg",
+      image: specialImg,
     },
   ];
 

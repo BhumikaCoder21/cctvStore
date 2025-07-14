@@ -1,5 +1,7 @@
 import React from "react";
 import "./Night2.css";
+import image1 from "../assets/night1.jpg";
+import image2 from "../assets/night2.jpg";
 
 function Night2() {
   return (
@@ -26,12 +28,12 @@ function Night2() {
       </p>
       <div className="ipcamera-image-wrapper">
         <img
-          src="https://www.cctvcameradelhi.in/images/Night-Vision-Range-100-Meters.jpg"
+          src={image1}
           alt="LPR Camera 1"
           className="ipcamera-image"
         />
         <img
-          src="https://www.cctvcameradelhi.in/images/Night-Vision-Range-150-Meters.jpg"
+          src={image2}
           alt="LPR Camera 2"
           className="ipcamera-image"
         />
